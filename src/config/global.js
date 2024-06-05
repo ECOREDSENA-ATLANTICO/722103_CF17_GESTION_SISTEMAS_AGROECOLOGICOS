@@ -1,17 +1,14 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Reproducción natural en las especies pecuarias',
+    descripcionCurso:
+      'La reproducción es la base fundamental en los ciclos productivos y eje de la economía animal, porque un bajo índice de natalidad genera: retraso económico, pérdida de rentabilidad y retardo en tiempos productivos. De allí, la importancia en la detección de celos para cada especie, el alistamiento para la monta, el seguimiento del cronograma productivo y reproductivo, el bienestar animal y otras actividades que coordinadamente impulsen la producción pecuaria.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,13 +28,34 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Reproducción natural en las especies pecuarias',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Características reproductivas de las especies pecuarias',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Bienestar animal en proceso reproductivo de las especies pecuarias',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Anatomía del aparato reproductor de la hembra y el macho',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Celo',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Mecanismos y herramientas para la detección del celo',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,14 +63,35 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Bioseguridad y manejo de los animales destinados para la reproducción natural',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Elementos de conducción, sujeción e inmovilización para los animales en reproducción',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Principales enfermedades reproductivas por especie animal',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Titulo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Elementos',
+            hash: 't_3_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +141,254 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.2 Bienestar animal de las especies pecuarias ',
+      referencia:
+        'Organización Mundial de Sanidad Animal [OIE]. (s. f.). Código sanitario para los animales terrestres.',
+      tipo: 'Página web',
+      link:
+        'https://www.oie.int/es/que-hacemos/normas/codigos-y-manuales/acceso-en-linea-al-codigo-terrestre/?id=169&L=1&htmfile=titre_1.7.htm',
+    },
+    {
+      tema: '1.3 Anatomía del aparato reproductor del macho y de la hembra',
+      referencia:
+        'Porras, A. y Páramo, R. (2009). Manual de prácticas de reproducción animal. Universidad Nacional Autónoma de México.',
+      tipo: 'PDF',
+      link:
+        'https://fmvz.unam.mx/fmvz/licenciatura/coepa/archivos/manuales_2013/Manual%20de%20Practicas%20de%20Reproduccion%20Animal.pdf',
     },
     {
       tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Cortés-Vidauri, Z., Aréchiga-Flores, C., Rincón-Delgado, M., Rochín, Berumen, F., López-Carlos, M. y Flores-Flores, G. (2018). Revisión: El Ciclo Reproductivo de la Yegua. Abanico Veterinario, 8(3), p. 14-41. ',
+      tipo: 'PDF',
+      link: 'http://dx.doi.org/10.21929/abavet2018.83.1      ',
+    },
+    {
+      tema: '1.5 Mecanismos y herramientas para la detección del celo  ',
+      referencia:
+        'Celotor – Detector de Celo Bovino. (2014). CELOTOR – Video de presentación [     Video]     . YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/PSAgVV0XdH0',
+    },
+    {
+      tema: '',
+      referencia:
+        'Pueyo, D. (2017).  Efectividad de los cuatro métodos para la detección de celo en vacuno de carne. Universidad Zaragoza. ',
+      tipo: 'PDF',
+      link:
+        'https://citarea.cita-aragon.es/citarea/bitstream/10532/3955/1/2017_493.pdf',
+    },
+    {
+      tema:
+        '2. Bioseguridad y manejo de los animales destinados para la reproducción natural',
+      referencia:
+        'PIC North America. (2018     ). Manual de manejo para centros de sementales de      PIC.',
+      tipo: 'PDF',
+      link:
+        'https://www.pic.com/wp-content/uploads/sites/3/2018/10/Boar-Stud-Management-Guidelines-Spanish.pdf',
+    },
+    {
+      tema: '2.2 Principales enfermedades reproductivas por especie animal ',
+      referencia:
+        'Alfonso, H. (2018). Enfermedades de la reproducción bovina endémicas de Colombia. Universidad Cooperativa de Colombia.',
+      tipo: 'PDF',
+      link:
+        'https://repository.ucc.edu.co/bitstream/20.500.12494/12389/1/2018_enfermedades_reproduccion_bovina_.pdf',
+    },
+    {
+      tema: '',
+      referencia:
+        'TvAgro. (2015). Enfermedades Reproductivas en el Hato Ganadero - TvAgro por Juan Gonzalo Angel      [     Video]     . YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=nUgDS7APBmA',
+    },
+    {
+      tema: '2.     Parámetros reproductivos en las especies pecuarias ',
+      referencia:
+        'Bustillo, J.      y Melo, J.      (2020). Parámetros reproductivos y      eficiencia reproductiva en ganado bovino. Universidad Cooperativa de Colombia.',
+      tipo: 'PDF',
+      link:
+        'https://repository.ucc.edu.co/bitstream/20.500.12494/17465/1/2020_parametros_reproductivos_eficiencia.pdf',
+    },
+    {
+      tema:
+        '3.4 Cronograma de proceso de monta  natural en animales domésticos  ',
+      referencia:
+        'García, T.      (2017). Manejo de registros para bovinos en el sistema de producción de doble propósito. Ganaderia.com.',
+      tipo: 'Artículo',
+      link:
+        'https://www.ganaderia.com/destacado/Manejo-de-registros-para-bovinos-en-el-sistema-de-produccion-de-doble-proposito',
+    },
+    {
+      tema: '3.6 Gestación por especie animal',
+      referencia:
+        'Smok, C., Roa, I., y Rojas, M. (2014). Desarrollo fetal en mamíferos. Int. J. Med. Surg. Sci, 1(2), p     . 139-145.',
+      tipo: 'PDF',
+      link:
+        'https://www.researchgate.net/publication/265162066_Desarrollo_Fetal_en_Mamiferos       ',
+    },
+    {
+      tema:
+        '3.     Procedimientos estandarizados      y de seguridad y salud en el trabajo en la explotación destinada a la reproducción animal ',
+      referencia:
+        'Ministerio del Trabajo. (s. f.). Sistema de Gestión de Seguridad y Salud en el Trabajo. Gov.co.',
+      tipo: 'Página web',
+      link:
+        'https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Anatomía',
+      significado:
+        'Ciencia que estudia la estructura del cuerpo y los diferentes órganos.   ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Bienestar animal',
+      significado:
+        'Necesidades básicas de los animales y la manera en que los individuos se enfrentan al medio.',
+    },
+    {
+      termino: 'Ciclo',
+      significado:
+        'Fases o estados por los que pasa un acontecimiento y que suceden en el mismo orden.',
+    },
+    {
+      termino: 'Concepción',
+      significado:
+        'Es la unión del espermatozoide y el óvulo, siendo este último fertilizado.',
+    },
+    {
+      termino: 'Comportamiento',
+      significado:
+        'Conjunto de respuestas o reacciones que tienen los seres vivos con relación al medio en que se encuentran.',
+    },
+    {
+      termino: 'Cubrición',
+      significado:
+        'Es el proceso donde el macho fecunda a la hembra cubriéndola.',
+    },
+    {
+      termino: 'Dilatación',
+      significado: 'Aumento de longitud o superficie.',
+    },
+    {
+      termino: 'Gestación',
+      significado: 'Periodo comprendido entre la concepción y el nacimiento.',
+    },
+    {
+      termino: 'Higiene',
+      significado:
+        ' Limpieza y/o aseo para conservar la salud o lugares limpios.',
+    },
+    {
+      termino: 'Medicina preventiva',
+      significado: ' La unión de prácticas médicas para evitar la enfermedad.',
+    },
+    {
+      termino: 'Mucus',
+      significado:
+        ' Sustancia espesa y viscosa que recubre y humedece ciertas partes.',
+    },
+    {
+      termino: 'Natalidad',
+      significado: ' Número de crías nacidas en un periodo determinado.',
+    },
+    {
+      termino: 'Placenta',
+      significado:
+        ' Masa esponjosa, adherida al útero, y a través de la cual se establece el intercambio de oxígeno y sustancias nutritivas entre la madre y el embrión.',
+    },
+    {
+      termino: 'Reproductores',
+      significado: ' Animales que están destinados solo a la reproducción.',
+    },
+    {
+      termino: 'Secado',
+      significado:
+        ' Periodo entre dos lactaciones donde la ubre descansa y se regenera para la siguiente lactación.',
+    },
+    {
+      termino: 'Semen',
+      significado: ' Líquido corporal que lleva los espermatozoides.',
+    },
+    {
+      termino: 'Unidad pecuaria',
+      significado:
+        ' Es el terreno aprovechado total o parcialmente para la producción pecuaria. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arthur, G.     , Noakes, D. y      Pearson, H. (1991).      Reproducción y obstetricia en veterinaria. McGraw-Hill Interamericana.',
+    },
+    {
+      referencia:
+        'Cortés-Vidauri, Z., Aréchiga-Flores, C., Rincón-Delgado, M., Rochín, Berumen, F., López-Carlos, M. y Flores-Flores, G. (2018). Revisión: El Ciclo Reproductivo de la Yegua. Abanico Veterinario, 8(3), p. 14-41. ',
+      link: 'http://dx.doi.org/10.21929/abavet2018.83.1',
+    },
+    {
+      referencia:
+        'Cruz, M.,      Mogollón, J.     ,      Rincón, M.,      Peña, N.,      Ruiz, S. y      Lora, A.      (2006).      P     revalencia serológica del síndrome reproductivo y respiratorio porcino (     PRRS) en cerdos de explotaciones extensivas de Colombia. Revista de la Facultad de Medicina Veterinaria y de Zootecnia,      53(1),      p     . 33-41. ',
+      link: 'https://www.redalyc.org/pdf/4076/407639211004.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de la Protección Social. 2006.  Por el cual se expide el Reglamento Técnico sobre los requisitos que debe cumplir la leche para el consumo humano que se obtenga, procese, envase, transporte, comercializa, expenda, importe o exporte en el país. Febrero 28 de 2006. ',
+      link:
+        'https://www.ica.gov.co/getattachment/15425e0f-81fb-4111-b215-63e61e9e9130/2006d616.aspx',
+    },
+    {
+      referencia:
+        'Decreto 1500 de 2007. [Ministerio de la Protección Social]. Por el cual se establece el reglamento técnico a través del cual se crea el Sistema Oficial de Inspección, Vigilancia y Control de la Carne, Productos Cárnicos Comestibles y Derivados Cárnicos Destinados para el Consumo Humano y los requisitos sanitarios y de inocuidad que se deben cumplir en su producción primaria, beneficio, desposte, desprese, procesamiento, almacenamiento, transporte, comercialización, expendio, importación o exportación. Mayo 4 de 2007. ',
+      link:
+        'https://corponarino.gov.co/expedientes/juridica/2007decreto1500.pdf',
+    },
+    {
+      referencia:
+        'Díaz, E     . (2013). Epidemiología de la brucelosis causada por Brucella melitensis, Brucella suis y Brucella abortus en animales domésticos. Rev. s     ci. t     ech Off. i     nt. Epiz., 32(1), p.      43-51. ',
+      link:
+        'https://doc.oie.int/dyn/portal/digidoc.xhtml?statelessToken=37UYETiZiNqrbxW7J-QTl77lyTJR-9DIWT4NOy3zYDo=&actionMethod=dyn%2Fportal%2Fdigidoc.xhtml%3AdownloadAttachment.openStateless',
+    },
+    {
+      referencia:
+        'García, D. y González, C. (2009). Manejo de las novillas de reemplazo. Fundación GIRARZ. ',
+      link:
+        'https://www.researchgate.net/publication/260870113_Edad_al_primer_servicio_y_primer_parto_de_novillas_Doble_PropositoG',
+    },
+    {
+      referencia:
+        'Hernández,  P. y       Gómez,  A     . (2011) Leptospirosis:  una zoonosis que afecta a la salud pública y la producción pecuaria. Revista Ciencia Animal, 1     (4), p.      15-23. ',
+      link:
+        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1032&context=ca',
+    },
+    {
+      referencia:
+        'Instituto Nacional Tecnológico [INATEC]. (2018). Manejo productivo y reproductivo en bovinos, ovinos, caprinos y equinos. ',
+      link:
+        'https://www.tecnacional.edu.ni/media/Manual_Bovino_y_Caprino_opt.pdf',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (s. f.). Sistema de Gestión de Seguridad y Salud en el Trabajo. Gov.co. ',
+      link:
+        'https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo',
+    },
+    {
+      referencia:
+        'Niswender, G., Schwall, R.     , Fitz, T.     , Farin, C.      y      Sawyer, H     . (1985). Regulation of luteal function in domestic ruminants: N     ew concepts.      Proceedings of the 1984  Laurentian Hormone Conference,      41, p.      101-151. ',
+      link: 'https://doi.org/10.1016/B978-0-12-571141-8.50007-X',
+    },
+    {
+      referencia:
+        'Pérez, J., Chacón, L., Otero, R., Cardona, J. y Andrade, F.      (2014). Relación entre la circunferencia escrotal, el crecimiento testicular y parámetros de calidad de semen en toros de raza Guzerat, desde la pubertad hasta los 36 meses de edad.      Revista de Medicina Veterinaria, (27), p. 73-87. ',
+      link: 'http://www.scielo.org.co/pdf/rmv/n27/n27a07.pdf',
+    },
+    {
+      referencia:
+        'Van Eerdenburg, F. (2009). Detección de celo en vacas lecheras: Cómo vencer al toro. XXXVII Jornadas Uruguayas de Buiatría. ',
+      link: 'https://bibliotecadigital.fvet.edu.uy/handle/123456789/94',
     },
   ],
   creditos: [
@@ -136,14 +397,14 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -151,10 +412,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de Desarrollo Curricular',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Diana Julieth Núñez Ortegón',
+          cargo: 'Experta Temática',
+          centro: 'Centro de Comercio y Servicio - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
       ],
     },
@@ -162,28 +444,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Nelson Vera',
+          cargo: 'Producción audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Alexander acosta',
+          cargo: 'Producción audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carmen Martínez',
+          cargo: 'Producción audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Jorge Leonardo Camacho',
+          cargo: 'Desarrollo Fullstack ',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Carmen Martínez',
+          cargo: 'Diseño de contenidos digitales',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -191,29 +479,35 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Fabian Cuartas',
+          cargo: 'Validación de diseño y contenido',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Gilberto Herrera',
+          cargo: 'Validación de diseño y contenido',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Valencia Ebrat',
+          cargo: 'Validación de recursos digitales ',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
       ],
     },
   ],

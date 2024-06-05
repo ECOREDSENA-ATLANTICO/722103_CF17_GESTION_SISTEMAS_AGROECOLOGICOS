@@ -2,18 +2,210 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+    top: 54%
+    right: 16%
 
 @keyframes float1
+
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+.fnd-1
+  background-color: #EFF5D6
+  .slyder-a    
+    .slyder-a__bullets__item--active 
+      background-color: #ADCE32 !important
+      border-color: #ADCE32 !important
+      opacity: 1
+    .slyder-a__bullets__item 
+      background-color: #D8E89D   
+      border: 1px solid #D8E89D  
+      
+.fnd-1-       
+  .tabs-a__tab 
+    background-color: #E8E8E8
+.fnd-1-.crd_02::before    
+    background-color: #EFF5D6 !important
+.fnd-2 
+  background-color: #FFE9E1 !important
+  .slyder-a    
+    .slyder-a__bullets__item--active 
+      background-color: #FFA686 !important
+      border-color: #FFA686 !important
+      opacity: 1
+    .slyder-a__bullets__item 
+      background-color: #FFD2C2   
+      border: 1px solid #FFD2C2   
+.fnd-3
+  background-color: #F6F6F6 !important  
+.fnd-center
+  display: flex
+  align-content: center
+  justify-content: center  
+.img-izq 
+  position: relative
+  top: 0
+  left: -11px
+
+.img-t 
+  width: auto
+  height: auto
+.img-78
+  width: auto
+  height: 78px
+.img-infografica-b__modal__contenido div > p 
+  color: #000000 !important 
+
+$crd-icon-size: 120px
+$crd-padding: 1.5rem
+$crd-width: calc(100% - ((#{$crd-icon-size} / 2)) 
+
+.crd_02 
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  align-items: center 
+  padding: 0.5rem 1.5rem 0.5rem 0 
+  z-index: 1
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width
+    height: 100%    
+    background-color: #f5d6d6
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size
+    margin-right: 15px
+    img   
+      width: $crd-icon-size
+  &__txt
+    flex: 1 
+    order: 2    		  
+ 
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__icon 
+      position: relative
+      width: 2rem
+      margin-right: 0.65rem
+      margin-top: 4px
+   
+  &__txt 
+    margin-top: 2rem
+    p:first-child,
+    h4:first-child 
+      margin-top: 2px   
+
+
+.img-fnd-flot
+  position: relative
+  width: 100%
+  .fl-box
+    background-color: #EFF5D6
+    color: #fff
+    padding: 20px
+    text-align: center
+    border-radius: 1rem
+    margin-top: 1rem
+
+  @media (min-width: 992px)
+    .b-img
+      display: block
+      width: 100%
+    .fl-box
+      position: absolute
+      bottom: -15%
+      left: 50%
+      transform: translateX(-50%)
+      width: 80%
+      background-color: #EFF5D6
+      color: #fff
+      padding: 20px
+      text-align: center
+      border-radius: 1rem
+      p
+        color: black
+
+.img-fnd-flot2
+  position: relative
+  width: 100%
+  .fl-box2
+    background-color: #EFF5D6
+    color: #fff
+    padding: 20px
+    border-radius: 1rem
+    margin-top: 1rem
+  .b-img2
+    display: none
+
+  @media (min-width: 992px)
+    .b-img2
+      display: block
+      width: 100%
+    .fl-box2
+      position: absolute
+      top: 11%
+      right: 0%
+      width: 62%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ttl-1 
+  background-color: #0B481E
+.nar
+  font-size: 0.6rem !important
+  margin-top: 0.4%  
+.ttbl 
+  
+  text-align: center
+  td
+    border: 1px solid #707070 !important
+  th
+    font-weight: 700  
+    font-size: 1.125em
+    border: 1px solid #707070 !important
+.tc1
+  background-color: #CEE284
+.tc2
+  background-color: #ADCE32
+.tc3
+  background-color: #EFF5D6
+.tc4
+  background-color: #DEEBAD          
+
+.tabs-b__tab     
+  background-color: #FFE9E1
+  &--active 
+    background-color: transparent
+    border-top: 5px solid !important
+    border-bottom: none
+.tabs-b__tab:hover
+  background-color: transparent
+
+
