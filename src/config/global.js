@@ -83,13 +83,106 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo',
+        titulo: 'Parámetros reproductivos en las especies pecuarias',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Elementos',
+            titulo: 'Fisiología de la reproducción natural',
             hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              '3.2  Definición y descripción del ciclo estral de los animales domésticos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Proceso reproductivo de la monta natural',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo:
+              'Cronograma de proceso de monta natural en animales domésticos',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Comportamiento reproductivo animal',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Gestación por especie animal',
+            hash: 't_3_6',
+          },
+          {
+            numero: '3.7',
+            titulo: 'Evaluación de parámetros reproductivos',
+            hash: 't_3_7',
+          },
+          {
+            numero: '3.8',
+            titulo:
+              'Aspectos generales del parto y la lactancia en las especies animales',
+            hash: 't_3_8',
+          },
+          {
+            numero: '3.9',
+            titulo: 'Evaluación de parámetros reproductivos. ',
+            hash: 't_3_9',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Inseminación artificial en especies animales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Elementos necesarios para la IA',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Métodos y pasos de Inseminación artificial para las especies de producción',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Procedimientos estandarizados, y de seguridad en el trabajo en la explotación destinada a la reproducción animal',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Definición y aplicación del POE en reproducción natural',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo:
+              'Tipos, procedimiento, registros y manejo en reproducción natural',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Buenas prácticas pecuarias en reproducción natural',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo:
+              'Normas de salud y seguridad en el trabajo y medio ambiente en explotaciones pecuarias dedicadas a la reproducción animal',
+            hash: 't_5_4',
           },
         ],
       },
