@@ -22,6 +22,13 @@
         p La inseminación artificial no es simplemente un método novedoso para lograr la fecundación en las hembras. Es una poderosa herramienta empleada principalmente para la mejora del ganado. En la inseminación artificial, el germoplasma de los toros de calidad superior se puede utilizar de manera efectiva en diferentes lugares. Mediante la adopción de la inseminación artificial, habría una reducción considerable de las enfermedades genitales y no genitales en el ganado de la granja.
 
       .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema4/img-2.svg', alt='Texto que describa la imagen')
+    
+    
+    Separador
+    #4_1.titulo-segundo.color-acento-contenido
+      h2 4.1	Elementos necesarios para la Inseminación Artificial (IA)
     p 
     p 
 
