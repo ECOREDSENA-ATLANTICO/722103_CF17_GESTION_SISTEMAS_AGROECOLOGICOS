@@ -41,6 +41,8 @@
       border: 1px solid #FFD2C2   
 .fnd-3
   background-color: #F6F6F6 !important  
+.fnd-4
+  background-color: #ffffff !important    
 .fnd-center
   display: flex
   align-content: center
@@ -110,7 +112,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     h4:first-child 
       margin-top: 2px   
 
-
 .img-fnd-flot
   position: relative
   width: 100%
@@ -162,9 +163,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
       right: 0%
       width: 62%
 
-
-
-
 .img-fnd-flot3 
   position: relative
   width: 100%
@@ -192,17 +190,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
       left: 40%
       right: 0
       transform: translateY(-50%)      
-
-
-
-
-
-
-
-
-
-
-
 
 .ttl-1 
   background-color: #0B481E
@@ -236,4 +223,68 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 .tabs-b__tab:hover
   background-color: transparent
 
+$crd-icon-size: 120px
+$crd-padding: 1.5rem
+$crd-width: calc(100% - ((#{$crd-icon-size} / 2)) )
+
+.crd_02 
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  padding: 1.5rem 1.5rem 1.5rem 0   
+  z-index: 1
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width
+    height: 100%    
+    background-color: #FFE9E1
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size
+    margin-right: 15px
+    img   
+      width: $crd-icon-size
+  &__txt
+    flex: 1 
+    order: 2    		
+	
+
+.crd_03
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  padding: 0.5rem 1.5rem 0.5rem 0   
+  z-index: 1
+  align-items: center
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width
+    height: 100%    
+    background-color: #EFF5D6
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size
+    margin-right: 15px
+    img   
+      width: $crd-icon-size
+  &__txt
+    flex: 1 
+    order: 2    	
+    
+	
 
