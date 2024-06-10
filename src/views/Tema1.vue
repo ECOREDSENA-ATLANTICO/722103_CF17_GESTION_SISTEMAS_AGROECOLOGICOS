@@ -180,7 +180,7 @@
     
     .row.justify-content-star.align-items-center.mb-3
       .col-lg-1.ttl-1
-        h5.m-0.text-white.p-3 Ovarios
+        h5.m-0.text-white.text-center Ovarios
 
     p En los ovarios, se producen las células productoras de los gametos femeninos, en este caso, los óvulos, los cuales serán fecundados por los espermatozoides. Dentro de sus funciones principales, se encuentra la intervención en la producción hormonal y el desarrollo de los ovocitos, como se aprecia a continuación.
     .row.justify-content-center.align-items-center.mb-5
@@ -362,7 +362,7 @@
 
     .row.justify-content-star.align-items-center.mb-3
       .col-lg-1.ttl-1
-        h5.m-0.text-white.p-3 Pene
+        h5.m-0.text-white.text-center Pene
 
     .row.justify-content-center.align-items-center
       .col-lg-4        

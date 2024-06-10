@@ -150,39 +150,39 @@
 
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones
+      .tarjeta.color-acento-contenido.fnd-5
         .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema4/img-10.jpg' alt='AvatarTop')
         h6.text-center Inmovilización
         p.text-center Inmovilización  del animal.
 
-      .tarjeta.color-acento-botones
+      .tarjeta.color-acento-botones.fnd-5
         .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema4/img-11.jpg' alt='AvatarTop')
         h6.text-center Preparación de instrumentos
         p.text-center Preparación de todos los instrumentos a utilizar, verificando el registro de la vaca y la pajilla.
 
 
-      .tarjeta.color-acento-botones
+      .tarjeta.color-acento-botones.fnd-5
         .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema4/img-12.jpg' alt='AvatarTop')
         h6.text-center.mx-3 Retirar la pajilla del tanque
         p.text-center.mx-3 Retiro de la pajilla del tanque, tener en cuenta el número de la canastilla, este procedimiento no debe durar más de 5 segundos.
 
-      .tarjeta.color-acento-botones
+      .tarjeta.color-acento-botones.fnd-5
         .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema4/img-13.jpg' alt='AvatarTop')
         h6.text-center Cubrimiento de la pajilla
         p.text-center Cubrimiento de la pajilla de la luz con las toallas de papel e introducir en descongelado (35°C - 38°C) por 45 a 60 segundos, secar y cortar.
 
-      .tarjeta.color-acento-botones
+      .tarjeta.color-acento-botones.fnd-5
         .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema4/img-14.jpg' alt='AvatarTop')
         h6.text-center Armado de la pistola
         p.text-center Armado de la pistola con la pajilla, tener en cuenta que debe estar ajustada la funda sanitaria.
 
 
-      .tarjeta.color-acento-botones
+      .tarjeta.color-acento-botones.fnd-5
         .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema4/img-15.jpg' alt='AvatarTop')
         h6.text-center Aplicación del semen
