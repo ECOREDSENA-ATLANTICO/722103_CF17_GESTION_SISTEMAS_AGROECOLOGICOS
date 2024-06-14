@@ -610,11 +610,9 @@
     #3_7.titulo-segundo.color-acento-contenido
       h2 3.7. Evaluación de parámetros reproductivos
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
+      .col-lg-3
         p La evaluación de dichos parámetros es muy importante porque, de esta manera, se evalúa el sistema productivo y se identifican verdaderamente las falencias frente a animales o frente a procesos realizados en estos mismos animales, como se muestra a continuación.
-      .col-lg-10
-          
-
+      .col-lg-9
         .tarjeta.tarjeta--azul.p-4.mb-5.fnd-1
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
@@ -638,7 +636,7 @@
                 h4 Servicios por concepción (SC)
                 p Número de servicios para lograr una gestación y así determinar la capacidad de fertilidad de un individuo o un grupo de individuos. Se tienen que evaluar los porcentajes de concepción de cada especie para así tomar acciones o no.
               .col-md-6
-                figure
+                figure.px-3
                   img(src='@/assets/curso/temas/tema3/img-24.svg')
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0.px-5
@@ -646,70 +644,90 @@
                 p Refleja el tiempo que tardó la novilla en alcanzar su madurez, aparearse, desarrollar su primera gestación y reproducirse exitosamente por primera vez (Villamil & Yañez, 2012).
                 p Nota para la ecuación EPP: para la sumatoria de edades al primer parto ya sea en meses o días, se toma la fecha de parto-fecha de nacimiento de cada hembra parida dentro de un periodo determinado (época, mes, año) y se divide por el número hembras primer parto analizadas en cada periodo (González, 2001).
               .col-md-6
-                figure
+                figure.px-3
                   img(src='@/assets/curso/temas/tema3/img-25.svg')
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0.px-5
                 h4 Porcentaje y tasa de concepción (PC)
                 p Capacidad de la hembra a la preñez frente a los diferentes servicios realizados durante un tiempo indeterminado.
               .col-md-6
-                figure
+                figure.px-3
                   img(src='@/assets/curso/temas/tema3/img-26.svg')
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0.px-5
                 h4 Intervalo parto concepción (IPC) Días abiertos (DA) Días vacíos (DV)
                 p Es el momento que trascurre entre el parto y una nueva preñez, a este se le denomina días abierto o días vacíos en las producciones pecuarias es de gran importancia, ya que entre menos sean los días abiertos para las hembras más rápido será el ciclo de dicha explotación.
               .col-md-6
-                figure
-                  img(src='@/assets/curso/temas/tema3/img-26.svg')
+                figure.px-3
+                  img(src='@/assets/curso/temas/tema3/img-27.svg')
             .row.justify-content-center.align-items-center
               .col-md-6.mb-4.mb-md-0.px-5
                 h4 Formula Servicios por concepción (SC)
                 p Intervalos entre partos
                 p Es la suma de intervalos entre partos consecutivos
               .col-md-6
-                figure
-                  img(src='@/assets/curso/temas/tema3/img-26.svg')
-            .row.justify-content-center.align-items-center
-              .col-md-6.mb-4.mb-md-0.px-5
-                h4 aaaaaaaaaaaa
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/temas/tema3/img-26.svg')
-            .row.justify-content-center.align-items-center
-              .col-md-6.mb-4.mb-md-0.px-5
-                h4 aaaaaaaaaaaa
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/temas/tema3/img-26.svg')
-            .row.justify-content-center.align-items-center
-              .col-md-6.mb-4.mb-md-0.px-5
-                h4 aaaaaaaaaaaa
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/temas/tema3/img-26.svg')
-            .row.justify-content-center.align-items-center
-              .col-md-6.mb-4.mb-md-0.px-5
-                h4 aaaaaaaaaaaa
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/temas/tema3/img-26.svg')
-                      
+                figure.px-3
+                  img(src='@/assets/curso/temas/tema3/img-28.svg')
 
 
 
+    Separador
+    #3_8.titulo-segundo.color-acento-contenido
+      h2 3.8 Aspectos generales del parto y la lactancia en las especies animales
+
+    p El parto se denomina el proceso por el cual las especies animales expulsan la placenta con la cría o crías, por medio de la intervención de las hormonas; está marcado por algunos signos como: 
+    figure.mb-5
+      img(src='@/assets/curso/temas/tema3/img-29.svg')
+
+    p Se debe tener en cuenta que en la mayoría de las especies la posición del feto se ubica descansando sobre el abdomen con las patas anteriores dirigidas hacia la abertura uterina (cérvix), y la cabeza entre ambas; las otras posiciones se determinan como anormales. 
+    p Tradicionalmente, el parto se ha dividido en tres etapas y la transición entre ellas se lleva a cabo de forma gradual. Las tres etapas se presentan a continuación:
+
+    .row.justify-content-center.align-items-stretch.d-flex.mb-5
+      .col-lg-6.col-xl-4
+        .tarjeta.color-acento-contenido.fnd-6
+          .row.justify-content-center.mb-3
+              img(src='@/assets/curso/temas/tema3/img-30.png' alt='AvatarTop')
+          h6.text-center Fase de preparación
+          p.text-center Alteración de la hembra tanto a nivel externo (comportamiento), como interno (moco bulbar, relajación de ligamentos).
+      .col-lg-6.col-xl-4
+        .tarjeta.color-acento-contenido.fnd-6
+          .row.justify-content-center.mb-3
+              img(src='@/assets/curso/temas/tema3/img-31.png' alt='AvatarTop')
+          h6.text-center Fase de dilatación
+          p.text-center.mx-3 Aumento del conducto genital (empieza entre cuatro y ocho horas antes del parto, depende de la especie). Contracciones uterinas con intervalo de tiempo y termina en el momento que la bolsa fetal se rompe y expulsa el feto.
+      .col-lg-6.col-xl-4
+        .tarjeta.color-acento-contenido.fnd-6
+          .row.justify-content-center.mb-3
+              img(src='@/assets/curso/temas/tema3/img-32.png' alt='AvatarTop')
+          h6.text-center Fase de expulsión
+          p.text-center.mx-3 Este proceso se refleja por acción de Ferguson que libera oxitocina y provoca las contracciones, el tiempo de expulsión, varía entre 2 a 3 horas en vacas, 5 a 30 minutos en yeguas y de 2 a 5 horas en porcinos; esta fase termina al expulsar el feto.
+
+    p La lactación es un proceso que abarca desde el parto hasta el destete, este depende mucho de la especie y el sistema de producción utilizado en este proceso, también intervienen diferentes hormonas como:
+    figure.mb-5
+      img(src='@/assets/curso/temas/tema3/img-33.svg')
 
 
+    p.mb-5 La lactación se caracteriza por irrigación de sangre a la glándula mamaria y la contracción de las células mioepiteliales bajo el estímulo de las hormonas mencionadas. La leche formada antes del nacimiento se llama calostro. En este proceso, hay una concentración de varias y esenciales sustancias, incluidos los <b>anticuerpos.</b> Además, debido al tipo de placentación bovina, la transferencia de inmunoglobulinas de la vaca al feto no es significativa. Por lo tanto, la forma en que la madre transfiere<b> las inmunoglobulinas al feto es a través del calostro.</b>
 
 
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .row.mb-5
+          .col-lg-12
+            .img-fnd-flot2.mb-3
+              img.b-img2(src='@/assets/curso/temas/tema3/img-34.svg' alt='Background Image')
+              .fl-box2
+                p.text-small.mb-0 Los recién nacidos deben consumir leche en menos de 24 horas para poder absorber estas inmunoglobulinas por el sistema digestivo. Las principales inmunoglobulinas del calostro son IgA, IgM e IgG. Si el tiempo es mayor, el epitelio intestinal impedirá el paso de estas importantes proteínas y el recién nacido quedará desprotegido.
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        p Cabe señalar que el calostro de la vaca también tiene compuestos como lisozimas, lactoferrina y lacto peroxidasa que tienen efectos antibióticos. El calostro destaca por su alta composición en grasas, vitaminas y proteínas. Por el contrario, su proporción de hidratos de carbono es baja.
+        p La vaca inicia la lactancia con la producción de calostro que durará unos días. Posteriormente, el calostro desaparecerá, dando lugar a la leche común. Es decir, con el paso de los días, la leche irá cambiando en su composición y aspecto. Alrededor de 3 a 4 semanas después de comenzar a amamantar, la vaca alcanza su punto máximo de producción de leche.
+        p El período de lactancia dura aproximadamente 305 días. Después de este período, la vaca entra en el llamado “período seco” donde la vaca no producirá leche. En el período seco, la ubre se deja descansar y recuperarse, preparándose para el próximo período de producción. Para lograr el período seco, no debe ordeñarse la vaca, lo que inhibe la producción.
 
-
-
-
-
-
-
+      .col-lg-5
+        figure.mb-5
+          img(src='@/assets/curso/temas/tema3/img-35.png')
 
 </template>
 
