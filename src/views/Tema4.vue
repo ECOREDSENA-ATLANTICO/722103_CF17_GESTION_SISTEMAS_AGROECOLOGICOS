@@ -111,7 +111,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .crd_03.mb-5
+        .crd_03.mb-5.fnd-1-
           .crd_03__icon.dan
             img(src="@/assets/curso/temas/tema4/img-6.svg", alt="alt")          
           .crd_03__txt

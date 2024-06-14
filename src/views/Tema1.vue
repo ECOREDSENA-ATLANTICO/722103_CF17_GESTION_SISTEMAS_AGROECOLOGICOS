@@ -45,7 +45,7 @@
           img(src='@/assets/curso/temas/tema1/img-3.svg')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .crd_02
+        .crd_02.fnd-1-
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema1/img-4.svg", alt="alt")          
           .crd_02__txt

@@ -29,6 +29,8 @@
     background-color: #E8E8E8
 .fnd-1-.crd_02::before    
     background-color: #EFF5D6 !important
+.fnd-1-.crd_03::before    
+    background-color: #EFF5D6 !important    
 .fnd-2 
   background-color: #FFE9E1 !important
   .slyder-a    
@@ -39,12 +41,16 @@
     .slyder-a__bullets__item 
       background-color: #FFD2C2   
       border: 1px solid #FFD2C2   
+.tabs-a__tab 
+  background-color: #E8E8E8 
 .fnd-2-
   background-color: #FFE9E1 !important      
   border-radius: 2rem
   padding: 1rem 0.5rem 1rem 0.5rem
 .fnd-3
   background-color: #F6F6F6 !important  
+.fnd-3-
+  background-color: #FFE9E1 !important    
 .fnd-4
   background-color: #ffffff !important  
 .fnd-5
@@ -89,7 +95,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     right: 0
     width: $crd-width
     height: 100%    
-    background-color: #f5d6d6
+    background-color: #FFE9E1
     border-radius: 15px
     z-index: -1
   &__icon
@@ -254,6 +260,106 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     font-weight: 700  
     font-size: 1.125em
     border: 1px solid #707070 !important
+.ttbl2 
+  text-align: center
+  th
+    font-weight: 700  
+    font-size: 1.125em
+    border: 1px solid #707070 !important
+    &:nth-child(1)
+      background-color: #EFF5D6
+    &:nth-child(2)
+      background-color: #DEEBAD
+    &:nth-child(3)
+      background-color: #FFE9E1
+    &:nth-child(4)
+      background-color: #FFD3C3
+  td
+    padding: 10px
+    border: 1px solid #707070 !important
+
+    &:nth-child(1)
+      background-color: #EFF5D6
+
+    &:nth-child(2)
+      background-color: #DEEBAD
+
+    &:nth-child(3)
+      background-color: #FFE9E1
+
+    &:nth-child(4)
+      background-color: #FFD3C3
+
+.ttbl3
+  text-align: center
+  th
+    font-weight: 700  
+    font-size: 1.125em
+    border: 1px solid #707070 !important
+    &:nth-child(1)
+      background-color: #DEEBAD
+    &:nth-child(2)
+      background-color: #ADCE32
+    &:nth-child(3)
+      background-color: #FFBCA4
+    &:nth-child(4)
+      background-color: #FFA686
+  td
+    padding: 10px
+    border: 1px solid #707070 !important
+    &:nth-child(1)
+      background-color: #EFF5D6
+    &:nth-child(2)
+      background-color: #DEEBAD
+    &:nth-child(3)
+      background-color: #FFE9E1
+    &:nth-child(4)
+      background-color: #FFD3C3      
+
+.ttbl4
+  text-align: center
+  th
+    font-weight: 700  
+    font-size: 1.125em
+    border: 1px solid #707070 !important
+    &:nth-child(1)
+      background-color: #DEEBAD
+    &:nth-child(2)
+      background-color: #FFD3C3
+  td
+    padding: 10px
+    border: 1px solid #707070 !important
+    &:nth-child(1)
+      background-color: #EFF5D6
+    &:nth-child(2)
+      background-color: #FFE9E1
+
+.ttbl5
+  text-align: center
+
+  th
+    font-weight: 700  
+    font-size: 0.9em
+    border: 1px solid #707070 !important
+
+    &:nth-child(-n+3) 
+      background-color: #DEEBAD
+    &:nth-child(n+4) 
+      background-color: #FFD3C3
+    &:nth-child(1)
+      width: 5rem      
+  td
+    padding: 10px
+    font-size: 0.9em
+    border: 1px solid #707070 !important
+    &:nth-child(-n+3)
+      background-color: #EFF5D6
+    &:nth-child(n+4)
+      background-color: #FFE9E1
+
+
+
+
 .tc1
   background-color: #CEE284
 .tc2
@@ -272,39 +378,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 .tabs-b__tab:hover
   background-color: transparent
 
-$crd-icon-size: 120px
-$crd-padding: 1.5rem
-$crd-width: calc(100% - ((#{$crd-icon-size} / 2)) )
-
-.crd_02 
-  position: relative
-  display: flex
-  flex-direction: row
-  justify-content: start
-  padding: 1.5rem 1.5rem 1.5rem 0   
-  z-index: 1
-
-  &::before
-    content: ""
-    position: absolute
-    top: 0
-    right: 0
-    width: $crd-width
-    height: 100%    
-    background-color: #FFE9E1
-    border-radius: 15px
-    z-index: -1
-  &__icon
-    order: 1
-    flex-basis: auto
-    width: $crd-icon-size
-    margin-right: 15px
-    img   
-      width: $crd-icon-size
-  &__txt
-    flex: 1 
-    order: 2    		
-	
 
 .crd_03
   position: relative
@@ -321,7 +394,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)) )
     right: 0
     width: $crd-width
     height: 100%    
-    background-color: #EFF5D6
+    background-color: #FFE9E1
     border-radius: 15px
     z-index: -1
   &__icon
@@ -342,3 +415,8 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)) )
   text-align: center !important
   color: #FFA686
   margin-bottom: 0 !important
+
+.linea-tiempo-c.color-secundario .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot 
+    border-color: #0B481E
+.linea-tiempo-c.color-secundario .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after 
+  background-color: #0B481E  
