@@ -7,18 +7,18 @@
         span 2
       h1 Bioseguridad y manejo de los animales destinados para la reproducción natural
     .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4
+        .col-lg-5
           figure
-            img.img-t.img-izq(src='@/assets/curso/temas/tema2/img-1.png')
+            img.img-izq(src='@/assets/curso/temas/tema2/img-1-.png')
             
-        .col-lg-8
+        .col-lg-7
           p La bioseguridad es un componente importante en las producciones pecuarias, porque engloba diferentes componentes, tanto estructurales y físicos de las producciones, como componentes sistémicos de los animales, abarcando desde la distancia entre explotaciones, barreras sanitarias, cercos perimetrales, entre otros; hasta lo más propio de la producción, como la eliminación y prevención de enfermedades, pero siempre teniendo como objetivo principal proteger la salud de los animales en la explotación. La bioseguridad va encaminada a evitar la entrada y/o salida de agentes patógenos, por ende, la importancia de su realización y ejecución en los entes productivos pecuarios.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p Las principales medidas de bioseguridad de las granjas son:
         figure
-          img.img-t.img-izq(src='@/assets/curso/temas/tema2/img-2.svg')
+          img(src='@/assets/curso/temas/tema2/img-2-.svg')
 
 
     p Ahora, el uso de reproductores representa un mayor reto hablando bajo condiciones de bioseguridad, debido a que se debe tener un cuidado especial, tanto del macho como de la hembra, con respecto a la limpieza y desinfección de las diferentes áreas destinadas para la reproducción y/o monta.
@@ -32,10 +32,10 @@
               img.img-t.img-izq(src='@/assets/curso/temas/tema2/img-3.png')
               
           .col-lg-8.px-3
-            p Al momento de comprar animales reproductores, es importante solicitar la historia clínica del animal, registros de vacunación, registros de montas, realizar un análisis físico y sanguíneo para descartar cualquier tipo de enfermedad que pueda ser perjudicial para la producción. 
-            p Realizar una limpieza del órgano reproductor, tanto de la hembra como del macho; importante hacerlo tanto antes como después de la monta.
+            p #[span(style="color: #FFA686;" class="vii") ● ]Al momento de comprar animales reproductores, es importante solicitar la historia clínica del animal, registros de vacunación, registros de montas, realizar un análisis físico y sanguíneo para descartar cualquier tipo de enfermedad que pueda ser perjudicial para la producción. 
+            p  #[span(style="color: #FFA686;" class="vii") ● ]Realizar una limpieza del órgano reproductor, tanto de la hembra como del macho; importante hacerlo tanto antes como después de la monta.
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="zoom-in")
       .col-lg-8
         p Es importante darle las condiciones necesarias al semental y al lugar donde se encuentra alojado, y para ello, es trascendental tener en cuenta las siguientes recomendaciones:
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-3")
@@ -61,10 +61,10 @@
           img(src='@/assets/curso/temas/tema2/img-4.svg')
     
     Separador
-    #2_1.titulo-segundo.color-acento-contenido
+    #2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 2.1 Elementos de conducción, sujeción e inmovilización para los animales en reproducción
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-8
         p Estos elementos son los encargados de realizar el traslado, la sujeción e inmovilización, y cumplen un papel importante en el manejo animal, facilitando así el trabajo, y lo más importante, sin lastimar al animal.
         p Los animales reproductores deben tener un proceso de amansamiento y acostumbramiento a estos utensilios para el mejoramiento de su docilidad, es de consideración resaltar que para una mejor conducción de los animales, los corrales, jaulas, y pesebreras deben crear entre ellas una especie de camino o pasillo, el cual funciona como embudo y guía, evitando que el animal vaya muy suelto, ayudando al manejo y conducción.
@@ -79,7 +79,7 @@
 
 
 
-    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-1
+    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-1(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
@@ -126,7 +126,7 @@
 
 
     Separador
-    #2_2.titulo-segundo.color-acento-contenido
+    #2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.2 Principales enfermedades reproductivas por especie animal
 
     p Los animales, siendo seres vivos biológicamente activos, están bajo constante riesgo de ser asaltados por diferentes microorganismos que pueden ser causantes de enfermedades, en ocasiones, fatales para el animal.
@@ -134,7 +134,7 @@
     p Dentro de las diferentes especies pecuarias, se encuentra gran variedad de enfermedades, causando aumento en los costos productivos y grandes pérdidas económicas para la producción pecuaria.
 
 
-    ImagenInfograficaB.color-acento-botones.mb-5
+    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="fade-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema2/img-11.png')
@@ -162,7 +162,7 @@
 
 
     p.mb-5 Su peligrosidad radica en que el humano puede llegar a ser un hospedero accidental, generando una problemática zoonótica.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .row.mb-5
           .col-lg-12
@@ -172,7 +172,7 @@
                 p.mb-0 Es importante la vacunación oportuna de las hembras para evitar un posterior contagio y seguir los lineamientos de bioseguridad de cada producción.
 
 
-    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-2
+    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-2(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-8.mb-4.mb-md-0.px-5
@@ -209,7 +209,7 @@
         .row.justify-content-center.align-items-center
           .col-md-7.mb-4.mb-md-0.px-5
             h5 Virales
-            h6.mb-0 Rinotraqueitis infecciosa bovina IBR 
+            h5.mb-0 Rinotraqueitis infecciosa bovina IBR 
             p Se caracteriza esencialmente por la aparición de una rinotraqueitis exudativa, que puede afectar los bronquios mayores de los animales infectados. Aunque el aborto es más que una secuela del problema respiratorio, hay reportes de cepas con cierto potencial abortigénico que pueden producir brotes de abortos (Duque et al., 2014). La rinotraqueitis infecciosa posee 2 subtipos, los cuales afectan el organismo de manera diferente, siendo el subtipo 1 el causal de problemas respiratorios y el subtipo 2 el causal de problemas netamente reproductivos.
             p La contaminación o entrada del virus es principalmente por mecanismos aerógenos, lo que quiere decir que es por ingreso nasal, generando complicaciones respiratorias en primer momento; en algunas ocasiones, se presenta fiebre, pérdida del apetito, que, a la evolución de la enfermedad, presenta un edema vulvar generalizado con presencia de pústulas, úlceras, y secreciones  mucopurulentas. Es común los abortos, repeticiones de celos, baja tasa de preñez, entre otros problemas reproductivos. En los machos, se presenta un agrandamiento del pene bajo factores inflamatorios con formación pustular.
             p Es importante en la producción contar con un sistema de bioseguridad apto para evitar la llegada de la enfermedad. Frente a los animales afectados, se debe hacer un manejo de signos secundarios, porque los procesos víricos dependen de la respuesta inmune del animal. 

@@ -7,12 +7,10 @@
         span 5
       h1 Procedimientos estandarizados y de seguridad en el trabajo, en la explotación destinada a la reproducción animal
 
-
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-xl-5
       .col-lg-12
-        .img-fnd-flot.mb-3
-          img.b-img(src='@/assets/curso/temas/tema5/img-1.jpg' alt='Background Image')
+        .img-fnd-flot.mb-xl-3
+          img.b-img(src='@/assets/curso/temas/tema5/img-1.png' alt='Background Image')
           .fl-box.fnd-6
             p.mb-0 Dentro del marco legal colombiano, existen los siguientes procedimientos estandarizados y de seguridad en el trabajo en la explotación destinada a la reproducción animal.
 
@@ -35,7 +33,7 @@
         p Se deben hacer constantes capacitaciones en salud ocupacional en el trabajo (riesgos, pausas activas, entre otras), actividades de promoción de la salud, vigilancia epidemiológica.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-6
             .list.mb-2(data-aos="fade-down")
               .list__item
@@ -71,10 +69,10 @@
 
     
     Separador
-    #5_1.titulo-segundo.color-acento-contenido
+    #5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.1 Definición y aplicación de POE en reproducción natural
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         p Los Procesos Operativos Estandarizados (POE) en una explotación pecuaria garantizan la uniformidad, calidad y consistencia de los procesos ejecutados.
         p Para la elaboración de actividad de reproducción, se deben estandarizar procesos para garantizar un buen resultado y una buena inocuidad, de manera que no se afecte la reproducción generando abortos y complicaciones durante el periodo de gestación. La realización de POE es requerida para las buenas prácticas de producción (BPP) y normas internacionales como ISO.
@@ -83,17 +81,17 @@
 
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/tema5/img-4.svg", alt="alt") 
+          img(src="@/assets/curso/temas/tema5/img-4.png", alt="alt") 
 
       Separador
-    #5_2.titulo-segundo.color-acento-contenido
+    #5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.2	Tipos procedimiento, registros y manejo en reproducción natural
 
     p En una producción pecuaria, se deben tener todos los procedimientos escritos y, con base en un proceso estructurado, estos incluirán observaciones extraordinarias de los procesos que no se pueden hacer por diferentes motivos; deben incluir hora y fecha del día de sanitización, productos y cantidades utilizados, con base en el manual de procesos operativos estandarizados en la explotación.
     p Los principales consejos para un buen procedimiento son:
 
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="zoom-in")
       .col-lg-12
         .img-fnd-flot4.mb-3
           img.b-img4(src='@/assets/curso/temas/tema5/img-5.png' alt='Background Image')
@@ -128,10 +126,10 @@
 
 
     Separador
-    #5_3.titulo-segundo.color-acento-contenido
+    #5_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.3 Buenas prácticas pecuarias en reproducción natural
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4
         figure
           img(src="@/assets/curso/temas/tema5/img-6.png", alt="alt") 
@@ -139,7 +137,7 @@
         p En el contexto productivo mundial, se busca siempre la implementación de buenas prácticas en la producción primaria, donde entidades como la FAO y OMS brindan principios para el análisis de riesgos y ayudar al lineamiento de las prácticas de bioseguridad e higiene, guiando así al productor e incentivando a realizar las cosas bien; en eso se traducen las buenas prácticas, en hacer las cosas bien y como son debidas, para evitar enfermedades en los animales, garantizar un producto inocuo, y así alcanzar estándares productivos importantes.     
         p En Colombia, se encuentra como ente regulador y guía al Instituto Colombiano Agropecuario (ICA), el cual, con sus diferentes normativas y decretos, establece diferentes requisitos sanitarios y de inocuidad, para así asegurar un producto final que no sea perjudicial para el consumidor.
 
-    .row.justify-content-star.align-items-center.mb-3
+    .row.justify-content-star.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-2.ttl-1.mb-3
         h5.m-0.text-white.text-center Decreto 1500 de 2007
       .row.justify-content-center.align-items-center
@@ -155,10 +153,10 @@
 
 
       Separador
-    #5_4.titulo-segundo.color-acento-contenido
+    #5_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 5.4 Normas de salud y seguridad en el trabajo y medio ambiente, en explotaciones pecuarias dedicadas a la reproducción animal
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3
         figure
           img(src="@/assets/curso/temas/tema5/img-8.svg", alt="alt") 
@@ -168,7 +166,7 @@
         p Por disposición del Ministerio del Trabajo, todas las empresas del territorio colombiano deben cumplir mínimamente con esta normatividad:
 
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-12
         .img-fnd-flot4.mb-3
           img.b-img4(src='@/assets/curso/temas/tema5/img-9-.png' alt='Background Image')
@@ -192,9 +190,9 @@
               
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
-        .img-fnd-flot3.mb-3
+        .img-fnd-flot3.mb-3.fnd-v
           img.b-img3(src='@/assets/curso/temas/tema5/img-10.png' alt='Background Image')
           .fl-box3
             ul.lista-ul--color.px-3
@@ -222,12 +220,12 @@
                 | Resolución 2400 de 1979, por la cual se establecen algunas disposiciones sobre vivienda, higiene y seguridad en los establecimientos de trabajo.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4.fnd-2
           p La Organización Mundial de la Salud (OMS) define la salud como un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades. Según la Guía Técnica Colombiana GTC 45/2012, en las empresas, los empleados se encuentran expuestos a diferentes riesgos, como biológicos, físicos, químicos, psicosociales, biomecánicos, relacionados con las condiciones de seguridad, y por desastres naturales.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8         
         p Algunos riesgos son:
         p.mb-0 <b>Biológicos:</b> son de alta preocupación por la posible presencia o desarrollo de enfermedades zoonóticas.

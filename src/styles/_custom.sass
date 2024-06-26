@@ -57,6 +57,13 @@
   background-color: #FFD3C3  !important    
 .fnd-6
   background-color: #CEE284  !important     
+.fnd-6.fl-box
+  position: initial
+  transform: translate(0, -18%)
+  @media (min-width: 992px)
+    width: 50% !important
+
+
 .tarjeta.color-acento-contenido.fnd-6 
   height: 100%
 .fnd-center
@@ -65,12 +72,28 @@
   justify-content: center  
 .img-izq 
   position: relative
-  top: 0
-  left: -11px
+
+  @media (min-width: 992px)  
+    position: relative
+    top: 0
+    left: -11px
+    width: auto
+    height: auto
+  @media (max-width: 992px)  
+    transform: translate(50%, 0)   
+    margin-bottom: 1.5rem 
+.vii
+  display: none
+  @media (max-width: 992px) 
+    display: initial
+    
+
 
 .img-t 
+  max-height: 250px
   width: auto
   height: auto
+
 .img-78
   width: auto
   height: 78px
@@ -110,7 +133,46 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
   &__txt
     flex: 1 
     order: 2    		  
- 
+
+
+
+$crd-icon-size2: 46px
+$crd-padding2: 1.5rem
+$crd-width2: calc(100% - ((#{$crd-icon-size2} / 2)) 
+
+.crd_04
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  align-items: center 
+  padding: 0.9rem 0.2rem 1rem 0 
+  z-index: 1
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width2
+    height: 100%    
+    background-color: #F6F6F6
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size2
+    margin-right: 8px
+    img   
+      width: $crd-icon-size2
+      min-width: 46px
+  &__txt
+    flex: 1 
+    order: 2   
+    padding: 10px 0 10px 0 		 
+    font-size: 0.9rem 
+
 
 .list 
   width: 100%
@@ -135,7 +197,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     background-color: #EFF5D6
     color: #fff
     padding: 20px
-    text-align: center
     border-radius: 1rem
     margin-top: 1rem
 
@@ -152,7 +213,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
       background-color: #EFF5D6
       color: #fff
       padding: 20px
-      text-align: center
       border-radius: 1rem
       p
         color: black
@@ -178,7 +238,10 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
       top: 11%
       right: 0%
       width: 62%
-
+.img-fnd-flot3.fnd-v
+  @media (max-width: $bp-min-xl) 
+    .fl-box3
+      background-color: #EFF5D6 !important
 .img-fnd-flot3 
   position: relative
   width: 100%
@@ -187,18 +250,14 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     padding: 20px
     border-radius: 1rem
     background-color: #FFF3EF
-
-
     margin: 0 auto
   .b-img3 
     display: none
 
-
-  @media (min-width: 992px) 
+  @media (min-width: $bp-min-xl) 
     .b-img3 
       display: block
       width: 100%
-    
     .fl-box3 
       color: #000000
       width: 62%
@@ -251,8 +310,11 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
   font-size: 0.6rem !important
   margin-top: 0.4%  
   color: #ADCE32 !important
-
-
+.tabla-b__header.ttt
+  h4
+    color: #000000
+.fnd-b
+  background-color: white
 .ttbl 
   
   text-align: center
@@ -422,3 +484,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     border-color: #0B481E
 .linea-tiempo-c.color-secundario .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after 
   background-color: #0B481E  
+
+.naa
+  font-size: 0.6rem !important
+  margin-top: 0.4%  

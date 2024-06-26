@@ -7,16 +7,14 @@
         span 3
       h1 Parámetros reproductivos en las especies pecuarias
 
-      
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .img-fnd-flot.mb-3
           img.b-img(src='@/assets/curso/temas/tema3/img-1.jpg' alt='Background Image')
           .fl-box.fnd-3-
             p.mb-0 Los parámetros reproductivos son un conjunto de formas de expresiones e interpretaciones físicas, nutricionales, comportamentales y hormonales, que van desde el crecimiento y desarrollo del animal, su pubertad, manifestación del celo, carga espermática, hasta elementos que son necesarios para el apareamiento, gestación y parto.
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10
 
         .list.mb-3(data-aos="fade-down")
@@ -31,48 +29,50 @@
 
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 3
-          span Pubertad en las distintas especies 
-        
-        .ttbl2
-          table
-            thead
-              tr
-                th Machos
-                th Edad (meses)
-                th Hembras
-                th Edad (meses) 
-            tbody
-              tr
-                td Ternero
-                td 10-12
-                td Ternera 
-                td 8-11 
-              tr
-                td Cordero 
-                td 4-6
-                td Cordera 
-                td 4-6 
-              tr
-                td Cabrito
-                td 4-6
-                td Cabrita
-                td 4-6 
-              tr
-                td Potrillo 
-                td 13-18 
-                td Potrilla
-                td 15-18
-              tr
-                td Lechón
-                td 3-6
-                td Cerda
-                td 4-6
+        .tabla-b.mb-5
 
-    .row.justify-content-center.mb-5
+          .titulo-sexto.color-acento-contenido
+            h5 Tabla 3
+            span Pubertad en las distintas especies 
+          
+          .ttbl2
+            table
+              thead
+                tr
+                  th Machos
+                  th Edad (meses)
+                  th Hembras
+                  th Edad (meses) 
+              tbody
+                tr
+                  td Ternero
+                  td 10-12
+                  td Ternera 
+                  td 8-11 
+                tr
+                  td Cordero 
+                  td 4-6
+                  td Cordera 
+                  td 4-6 
+                tr
+                  td Cabrito
+                  td 4-6
+                  td Cabrita
+                  td 4-6 
+                tr
+                  td Potrillo 
+                  td 13-18 
+                  td Potrilla
+                  td 15-18
+                tr
+                  td Lechón
+                  td 3-6
+                  td Cerda
+                  td 4-6
+
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4
@@ -115,7 +115,7 @@
 
     p Conozca algunos términos importantes a tener en cuenta:
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-left")
       LineaTiempoC.color-secundario(text-small)
         .row.justify-content-center.align-items-center(titulo="Primer servicio")
           .col-md-7.px-5
@@ -142,7 +142,7 @@
           .col-md-5.mb-4.mb-md-0
             p Es el tiempo que transcurre entre el parto y el tiempo que toma en volver a quedar preñada la hembra, este parámetro es fundamental para evidenciar qué tan precisos son los métodos para la detección del celo.        
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .crd_02.fnd-1-
           .crd_02__icon.dan
@@ -152,7 +152,7 @@
 
 
     Separador
-    #3_1.titulo-segundo.color-acento-contenido
+    #3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 3.1 Fisiología de la reproducción natural
 
     p Dentro de la fisiología de la reproducción, se encuentran diferentes cambios comportamentales, físicos, hormonales, todos estos preparando tanto al macho como a la hembra para la reproducción y la concepción.
@@ -163,9 +163,9 @@
 
 
     Separador
-    #3_2.titulo-segundo.color-acento-contenido
+    #3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 3.2 Definición y descripción del ciclo estral de los animales domésticos
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6
         figure
           img(src='@/assets/curso/temas/tema3/img-8.png')
@@ -174,13 +174,15 @@
         p Este periodo está estrechamente relacionado a las cargas hormonales, tanto de estrógeno como de progesterona.
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
+        .tabla-b.mb-5
+          
         .titulo-sexto.color-acento-contenido
           h5 Tabla 5
           span Fases y cambios del ciclo estral
         
-        .ttbl3
+        .ttbl3.tabla-b
           table
             caption Nota. Tomado de INATEC (2018).
             thead
@@ -231,7 +233,7 @@
 
 
 
-    TabsA.color-acento-contenido.mb-4
+    TabsA.color-acento-contenido.mb-4(data-aos="fade-left")
       .tarjeta.color-acento-contenido.fnd-2.p-4(titulo="Monoéstricas")
         p Dentro de las monoéstricas, se encuentran las hembras que presentan un solo ciclo, ya que presentan una fase de anestro prolongado, la duración entre ciclos estrales varía entre 6 y 12 meses, por lo que pasan gran parte del año en reposo sexual. 
       .tarjeta.color-acento-contenido.fnd-2.p-4(titulo="Poliéstricas no estacionales")
@@ -240,7 +242,7 @@
         p Esto quiere decir que la temporada reproductiva está limitada a cierta época del año. Se da generalmente en las ovejas, cabras y yeguas, ya que estas especies son de ascendencia europea o de territorios donde las estaciones son marcadas. Estos animales son regulados principalmente por las horas de luz (fotoperiodo) y la glándula pineal.
 
     Separador
-    #3_3.titulo-segundo.color-acento-contenido
+    #3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.3 Proceso reproductivo de la monta natural
     p La monta natural es una técnica de reproducción utilizada en las diferentes explotaciones pecuarias en las que se requiere de un macho, previamente seleccionado, que cumple con unas características físicas, nutricionales y comportamentales, en busca de un mejoramiento genético y de producción. La monta natural se puede aplicar al sistema productivo de dos maneras, las cuales pueden tener sus ventajas y desventajas, estas son la monta natural y la monta natural selectiva, como se describe a continuación.
 
@@ -251,7 +253,7 @@
       .list__txt
         h3.mb-0 Monta natural: 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-6
         p Se da en un proceso en el cual un macho reproductor comparte con las hembras en el potrero, rebaño. La relación macho-hembras depende del sistema productivo y de las características de los animales; se recomienda que sea de esta manera:
 
@@ -319,7 +321,7 @@
     p En el examen general del aparato reproductor del macho, se deben evaluar los órganos genitales externos, así como los órganos genitales internos, iniciando por el prepucio y el pene, después, el escroto, y por último, los testículos, epidídimo, terminando con los órganos externos. Para la evaluación de los órganos internos o glándulas accesorias, es necesario hacer una palpación rectal para llegar hasta dichas estructuras.
 
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-left")
       LineaTiempoC.color-secundario(text-small)
         .row.justify-content-center.align-items-center(titulo="Pene y prepucio")
           .col-md-7.px-5
@@ -343,7 +345,7 @@
           .col-md-5.mb-4.mb-md-0
             p La palpación de las glándulas accesorias en los machos se realiza de forma rectal donde se evalúa tamaño, posición y normalidad al tacto, dentro de estas se evalúa la próstata, glándulas bulbo uretrales y vesículas seminales.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         p Luego, se evalúa la aptitud de monta, que es la capacidad comportamental que tiene el macho para montar a la hembra desde la identificación, acercamiento, el Flehmen, el cortejo e inmovilidad por parte de la hembra, la monta, la penetración, y por último, la eyaculación, o en algunos casos, se le nombra como golpe de riñón, el cual es signo inequívoco de eyaculación.
         p Por último y no menos importante, se evalúa el componente seminal. Inicialmente, de forma macroscópica, observando que el volumen y el aspecto sean normales, que no se vean grumos, que su coloración sea la normal de la especie, normalmente son cremosos grisáceos, que en volumen sea el contenido necesario; para después, microscópicamente, evaluar motilidad, y motilidad masal, la cual comprende la cantidad de espermatozoides móviles; viabilidad, que es la evaluación de espermatozoides vivos y muertos; concentración, que es el número de espermatozoides en un metro cúbico eyaculado; y morfología, que evalúa la proporción de espermatozoides anormales según sus condiciones morfológicas.
@@ -361,7 +363,7 @@
 
 
     Separador
-    #3_4.titulo-segundo.color-acento-contenido
+    #3_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.4 Cronograma de proceso de monta natural en animales domésticos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3
@@ -376,13 +378,13 @@
 
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Tabla 6. 
           span Datos reproductivos 
         
-        .ttbl4
+        .ttbl4.tabla-b
           table
             thead
               th Identificación del animal
@@ -415,13 +417,13 @@
             tr
 
     p Ahora, observe un ejemplo de cronograma de reproducción ganado bovino.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 7. 
           span Ejemplo cronograma reproducción ganado bovino
         
-        .ttbl5
+        .ttbl5.tabla-b
           table
             thead
               tr
@@ -514,7 +516,7 @@
                 td x
                 td x 
                 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center(data-aos="zoom-in")
       .col-lg-6
         p En el cronograma anterior, se evidencia, en meses, los tiempos de duración de los diferentes estados reproductivos del ganado bovino, donde se evidencia lo siguiente:
         ul.lista-ul--color
@@ -541,9 +543,9 @@
 
 
     Separador
-    #3_5.titulo-segundo.color-acento-contenido
+    #3_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.5 Comportamiento reproductivo animal
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-5.fnd-2
           .col-lg-4
@@ -554,12 +556,12 @@
  
 
     Separador
-    #3_6.titulo-segundo.color-acento-contenido
+    #3_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.6 Gestación por especie animal
     
     p La gestación es la etapa que va desde la fecundación e implantación del feto, el crecimiento, el desarrollo, hasta el parto. La gestación tiene varios procesos para la formación del embrión, que, durante el paso del tiempo, se transformará en el feto, como se aprecia a continuación.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-3")
           .row(titulo="Implantación")
@@ -580,7 +582,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img-21.png', alt='')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 8. 
@@ -607,9 +609,9 @@
       
 
     Separador
-    #3_7.titulo-segundo.color-acento-contenido
+    #3_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 3.7. Evaluación de parámetros reproductivos
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3
         p La evaluación de dichos parámetros es muy importante porque, de esta manera, se evalúa el sistema productivo y se identifican verdaderamente las falencias frente a animales o frente a procesos realizados en estos mismos animales, como se muestra a continuación.
       .col-lg-9
@@ -672,7 +674,7 @@
 
 
     Separador
-    #3_8.titulo-segundo.color-acento-contenido
+    #3_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 3.8 Aspectos generales del parto y la lactancia en las especies animales
 
     p El parto se denomina el proceso por el cual las especies animales expulsan la placenta con la cría o crías, por medio de la intervención de las hormonas; está marcado por algunos signos como: 
@@ -682,7 +684,7 @@
     p Se debe tener en cuenta que en la mayoría de las especies la posición del feto se ubica descansando sobre el abdomen con las patas anteriores dirigidas hacia la abertura uterina (cérvix), y la cabeza entre ambas; las otras posiciones se determinan como anormales. 
     p Tradicionalmente, el parto se ha dividido en tres etapas y la transición entre ellas se lleva a cabo de forma gradual. Las tres etapas se presentan a continuación:
 
-    .row.justify-content-center.align-items-stretch.d-flex.mb-5
+    .row.justify-content-center.align-items-stretch.d-flex.mb-5(data-aos="fade-left")
       .col-lg-6.col-xl-4
         .tarjeta.color-acento-contenido.fnd-6
           .row.justify-content-center.mb-3

@@ -17,10 +17,10 @@
             p La reproducción es un proceso por el cual se genera una descendencia de progenie, donde intervienen factores fenotípicos y genotípicos para dar las características necesarias de cada especie animal, que requiere de un macho y una hembra para realizar la copula, acto sobre el cual no hay una intervención directa del hombre. 
 
     Separador
-    #1_1.titulo-segundo.color-acento-contenido
+    #1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Características reproductivas de las especies pecuarias
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         p La reproducción natural en las especies pecuarias se genera de una manera sexual, para la cual se requiere de un macho con células sexuales (espermatozoides) y una hembra con células sexuales (óvulos), sin intervención directa del hombre. La actividad reproductiva está caracterizada por una fecundación por parte del espermatozoide al óvulo, la cual genera un proceso de fecundación, embarazo o preñez, y por último, el parto. Después del parto, se da un período de amamantamiento por parte de la madre a la cría, siendo fundamental para el desarrollo de su sistema inmune, así como su desarrollo músculo esquelético; en cuanto a la madre, continúa con su ciclo reproductivo muchas veces durante su vida.
         .cajon.color-acento-contenido.p-4.mb-4.fnd-2       
@@ -32,18 +32,51 @@
 
 
     Separador
-    #1_2.titulo-segundo.color-acento-contenido
+    #1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Bienestar animal en proceso reproductivo de las especies pecuarias
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.align-items-xl-start.mb-5(data-aos="zoom-in")
       .col-lg-6
         p El bienestar animal juega un papel muy importante en las diferentes producciones pecuarias, debido a  que, si se tiene un animal en condiciones no muy favorables, este no expresará su potencial genético y por ende afectará negativamente la producción pecuaria.
         p Según la OIE (2021), el bienestar animal se define como<b> “el estado físico y mental de un animal en relación con las condiciones en las que vive y muere”;</b> dentro de estas, existen unas condiciones enunciadas en 1965, que a la fecha son derechos de los animales, pero responsabilidades del productor, las cuales son llamadas<b> “las cinco libertades”:</b>
 
-      .col-lg-6        
-        figure
-          img(src='@/assets/curso/temas/tema1/img-3.svg')
-    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.mt-xl-4        
+        .row.align-items-stretch.justify-content-center
+          .col-xl-4.mb-1
+            .crd_04
+              .crd_04__icon
+                img(src="@/assets/curso/temas/tema1/img-p.svg", alt="alt")          
+              .crd_04__txt
+                h6.mb-0 Libre de temor y angustia.                    
+          .col-xl-8.mb-1
+            .crd_04
+              .crd_04__icon
+                img(src="@/assets/curso/temas/tema1/img-p.svg", alt="alt")          
+              .crd_04__txt
+                h6.mb-0 Libre de manifestar un comportamiento natural.        
+        .row.align-items-stretch.justify-content-center
+          .col-xl-4.mb-1
+            .crd_04
+              .crd_04__icon
+                img(src="@/assets/curso/temas/tema1/img-p.svg", alt="alt")          
+              .crd_04__txt
+                h6.mb-0 Libre de hambre, sed y desnutrición.
+        
+          .col-xl-4.mb-1
+            .crd_04
+              .crd_04__icon
+                img(src="@/assets/curso/temas/tema1/img-p.svg", alt="alt")          
+              .crd_04__txt
+                h6.mb-0 Libre de molestias físicas y térmicas.        
+          .col-xl-4.mb-1
+            .crd_04
+              .crd_04__icon
+                img(src="@/assets/curso/temas/tema1/img-p.svg", alt="alt")          
+              .crd_04__txt
+                h6.mb-0 Libre de dolor, lesión y enfermedad.    
+
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .crd_02.fnd-1-
           .crd_02__icon.dan
@@ -52,11 +85,11 @@
             p El bienestar animal puede ser medible con las diferentes características productivas, de acuerdo con las explotaciones pecuarias, porque son características que con una evaluación simple pueden ser identificadas, como se presenta a continuación.
                   
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-10
         .tarjeta.tarjeta--gris.p-4
           LineaTiempoC.color-primario(text-small)
-            .row(titulo="Comportamiento")
+            .row.justify-content-center.align-items-center(titulo="Comportamiento")
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img-5.png')
@@ -65,7 +98,7 @@
                 p.mb-0 - Aumento en la frecuencia cardíaca.
                 p.mb-0 - Aumento en la respiración (jadeo).
                 p.mb-0 - Agresividad.
-            .row(titulo="Morbilidad")
+            .row.justify-content-center.align-items-center(titulo="Morbilidad")
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img-6.png')
@@ -73,7 +106,7 @@
                 p.mb-0 - Enfermedad.
                 p.mb-0 - Cojera.
                 p.mb-0 - Comprender etiología de la enfermedad.
-            .row(titulo="Mortalidad")
+            .row.justify-content-center.align-items-center(titulo="Mortalidad")
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img-7.png')
@@ -81,14 +114,14 @@
                 p.mb-0 - Análisis causas de muerte.
                 p.mb-0 - Frecuencia de muerte.
                 p.mb-0 - Distribución espacio temporal de muerte.
-            .row(titulo="Condición corporal")
+            .row.justify-content-center.align-items-center(titulo="Condición corporal")
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img-8.png')
               .col-md-6
                 p.mb-0 - Baja condición corporal.
                 p.mb-0 - Pérdida de peso significativa.
-            .row(titulo="Eficiencia<br> reproductiva")
+            .row.justify-content-center.align-items-center(titulo="Eficiencia<br> reproductiva")
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img-9.png')
@@ -101,10 +134,10 @@
 
 
     Separador
-    #1_3.titulo-segundo.color-acento-contenido
+    #1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.3 Anatomía del aparato reproductor de la hembra y el macho
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .img-fnd-flot.mb-3
           img.b-img(src='@/assets/curso/temas/tema1/img-10.jpg' alt='Background Image')
@@ -128,7 +161,7 @@
         figure.mb-5
           img(src='@/assets/curso/temas/tema1/img-12.svg', alt='Órganos genitales hembras. En la figura se representa los internos: ovarios, oviducto, cuernos útero, cérvix, vagina, grupo genital externo: vulva con los labios vulvares, clítoris.')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         p El aparato reproductor de las hembras varía, según la especie, en tamaño, forma y, en algunos casos, estructura, pero su anatomía y características anatómicas son las mismas, siendo este un grupo de estructuras tubulares que posee capas, cada una con sus funciones específicas de adentro hacia fuera. Se observa la mucosa, la cual se encarga de la secreción de lubricación y mucus, la submucosa, que dentro de sus funciones está la de sostener la mucosa y llevar toda la irrigación e inervación; se continúa con una capa muscular, la cual ayuda a la producción de contracciones y sostenimiento; y por último se encuentra la serosa, siendo un tejido conectivo y formadores epiteliales.
 
@@ -140,7 +173,7 @@
           img(src='@/assets/curso/temas/tema1/img-13-.png', alt='Órganos genitales hembras. En la figura se representa los internos: ovarios, oviducto, cuernos útero, cérvix, vagina, grupo genital externo: vulva con los labios vulvares, clítoris.')
 
 
-    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-1
+    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-1(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
@@ -178,15 +211,15 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-17.png', alt='Texto que describa la imagen')
     
-    .row.justify-content-star.align-items-center.mb-3
+    .row.justify-content-star.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-1.ttl-1
         h5.m-0.text-white.text-center Ovarios
 
     p En los ovarios, se producen las células productoras de los gametos femeninos, en este caso, los óvulos, los cuales serán fecundados por los espermatozoides. Dentro de sus funciones principales, se encuentra la intervención en la producción hormonal y el desarrollo de los ovocitos, como se aprecia a continuación.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10
 
-        .row.mb-5
+        .row.mb-xl-5.mb-md-3
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/tema1/img-18.png' alt='AvatarTop')
@@ -212,7 +245,7 @@
                                           
     p Dentro de los ovarios, se pueden encontrar diferentes estructuras, llamadas hallazgos foliculares, las cuales, dependiendo de su grado de madurez o inmadurez, fases del ciclo estral y niveles hormonales, regulan el desarrollo de dichos hallazgos, estos son importantes de conocer, ya que así se puede evaluar la capacidad reproductiva de la hembra, alta o baja tasa de concepción, tiempos de preñez, entre otros factores importantes para el sistema productivo. Dentro de estas estructuras antes mencionadas, se encuentran:
 
-    TabsA.color-secundario.mb-5.fnd-1-
+    TabsA.color-secundario.mb-5.fnd-1-(data-aos="fade-left")
       .tarjeta.p-4.fnd-1(titulo="Folículos:")
         .row.justify-content-center.align-items-center
           .col-lg-8
@@ -252,7 +285,7 @@
           .crd_02__txt
             p Conozca las otras estructuras que componen el aparato reproductor de la hembra:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-3")
           .row(titulo="Oviducto o Trompas de Falopio")
@@ -265,11 +298,10 @@
           .row(titulo="Cérvix")
             p El cérvix es una estructura que genera protección del útero, en algunas especies como el ganado bovino este secreta un mucus con propiedades antibacterianas preparándose para la gestación (estro), cuando la vaca está servida y o gestante este cérvix produce un moco mucho más denso generando un tapón que sella y protege el útero, en caso de generar ruptura de este tapón puede provocar un aborto. En el cérvix encontramos unas estructuras muy características de cada especie que son los anillos cervicales, estos cumplen una función de barrera física para evitar el ingreso de patógenos y elementos extraños.
             p Cada especie animal tiene un número determinado de anillos cervicales.
-            .tabla-b.color-acento-contenido.mb-5
-              .tabla-b__header
+            .color-acento-contenido.mb-5
+              .tabla-b__header.ttt
                 h4.mb-0 Características del cérvix
               table
-                
                 tr
                   th Especie animal
                   td Bovino
@@ -277,7 +309,7 @@
                   td Equino
                   td Ovino
 
-                tr
+                tr.fnd-b
                   th Características del cérviz
                   td De 3 a 4 años muy prominentes
                   td En forma de tirabuzón
@@ -296,7 +328,7 @@
 
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema1/img-25.svg')
+          img(src='@/assets/curso/temas/tema1/img-25.png')
 
     .list.mb-5(data-aos="fade-down")
       .list__item
@@ -305,7 +337,7 @@
       .list__txt
         h3.mb-0 Anatomía del aparato reproductor del macho
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6
         figure
           img(src='@/assets/curso/temas/tema1/img-26.jpg')
@@ -315,7 +347,7 @@
         p A continuación, se aprecia la anatomía de los órganos reproductivos masculinos de las diferentes especies de reproducción para la explotación pecuaria.
 
 
-    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-3
+    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-3(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
@@ -364,7 +396,7 @@
       .col-lg-1.ttl-1
         h5.m-0.text-white.text-center Pene
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-4        
         p Este órgano es el encargado de realizar el depósito seminal en la hembra y también cumple funciones del sistema urinario para la evacuación de la orina. El pene de los mamíferos está compuesto por dos tipos de musculatura:
       .col-lg-4
@@ -385,7 +417,7 @@
 
     p El pene está dividido anatómicamente en 3 secciones: la base, el cuerpo y el glande. Se le invita a conocer el tipo de pene en diferentes especies.
 
-    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-3
+    .tarjeta.tarjeta--azul.p-4.mb-5.fnd-3(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0.px-5
@@ -421,7 +453,7 @@
               img(src='@/assets/curso/temas/tema1/img-35.png', alt='Texto que describa la imagen')
       
     p Otras estructuras reproductivas del macho, son:
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img-37.png')
@@ -438,23 +470,23 @@
             p Las glándulas accesorias son de gran importancia para la reproducción masculina, ya que son productoras de uno de los componentes más importantes para el transporte espermático como lo es el plasma seminal pues sin este plasma seminal se vería afectado la nutrición, supervivencia y el transporte de los espermatozoides, como funciones complementarias ayuda a la limpieza del canal uretral.
                                             
     Separador
-    #1_4.titulo-segundo.color-acento-contenido
+    #1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.4 Celo
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
-        p El celo, o el estro en las hembras, son cambios morfológicos y fisiológicos que se presentan inicialmente después de que la hembra alcanza la pubertad, y tiene  la capacidad de liberar gametos sexuales (óvulos) para una fecundación. En la hembra, existen cambios comportamentales y físicos característicos del celo, estos son:
+        p El celo o el estro en las hembras, son cambios morfológicos y fisiológicos que se presentan inicialmente después de que la hembra alcanza la pubertad y tiene  la capacidad de liberar gametos sexuales (óvulos) para una fecundación. En la hembra, existen cambios comportamentales y físicos característicos del celo, estos son:
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 2.
       span Cambios comportamentales y físicos del celo
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         figure.mb-5
           img(src='@/assets/curso/temas/tema1/img-38.png', alt='Cambios comportamentales y físicos del celo En la figura se observan los cambios comportamentales y físicos del celo.')
 
     p Aunque estos signos hablan claramente de la presencia del celo, también es importante tener en cuenta la edad del animal y su especie. En las hembras, se encuentran diferentes tipos de presentación del celo, según su periodicidad:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-4
         .crd_02.mb-5.crd_03 
           .crd_02__icon.dan
@@ -475,7 +507,7 @@
             p.mb-0 <b>●	Poliéstricas estacionales:</b> yeguas, gatas, cabras y ovejas.      
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-6
         p.mb-5 Tenga en cuenta que las poliéstricas se diferencian por el número de celos presentados en el año.<br>¿Cuánto tiempo dura el celo en la vaca, la oveja, la cerda y la yegua?
         ul.lista-ul--color.px-3
@@ -494,11 +526,11 @@
              
       .col-lg-6
         figure.mb-5
-          img(src='@/assets/curso/temas/tema1/img-42.jpg')
+          img(src='@/assets/curso/temas/tema1/img-42.png')
 
 
     Separador
-    #1_5.titulo-segundo.color-acento-contenido
+    #1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 1.5 Mecanismos y herramientas para la detección del celo
     .row.justify-content-center.align-items-center
       .col-lg-4    
@@ -523,7 +555,7 @@
     p La observación visual es la forma más común de detectar vacas en celo, dado que es la más simple, pero también tiende a ser la más subjetiva y con tendencia al error, aparte de que el comportamiento animal, en ocasiones, tiende a variar, ya que algunos animales muestran ciertas conductas y otros no.  
     p La escala de puntos para el comportamiento estral es:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
@@ -547,19 +579,19 @@
                 td.tc3 Fatiga
                 td.tc4 5
               tr
-                td.tc3 Ser montada pero no quedarsequieta
+                td.tc3 Ser montada pero no quedarse quieta
                 td.tc4 10
               tr
                 td.tc3 Olfateo de la vulva de otra vaca
                 td.tc4 10
               tr
-                td.tc3 Descansar con la barbilla sobreotra vaca
+                td.tc3 Descansar con la barbilla sobre otra vaca
                 td.tc4 15
               tr
                 td.tc3 Monta (o intento) a otras vacas
                 td.tc4 35
               tr
-                td.tc3 Montar de lado la cabeza de otrasvacas
+                td.tc3 Montar de lado la cabeza de otras vacas
                 td.tc4 45
               tr
                 td.tc3 Celo con quietud
@@ -575,7 +607,7 @@
     h3.mb-5 Mecanismos y herramientas para la detección del celo
 
 
-    TabsB.color-acento-contenido.mb-5.fnd-2-
+    TabsB.color-acento-contenido.mb-5.fnd-2-(data-aos="fade-left")
       .py-4.py-md-5(titulo="Animales marcadores")
         .row.justify-content-center.align-items-center.mb-5
           .col-md-4

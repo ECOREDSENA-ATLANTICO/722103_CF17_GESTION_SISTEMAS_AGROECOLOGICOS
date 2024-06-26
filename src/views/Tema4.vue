@@ -23,18 +23,18 @@
 
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema4/img-2.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema4/img-2.png', alt='Texto que describa la imagen')
     
     
     Separador
-    #4_1.titulo-segundo.color-acento-contenido
+    #4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1	Elementos necesarios para la Inseminación Artificial (IA)
 
     p El sector ganadero busca mejorar la productividad de carne, leche y rusticidad, por medio de los cruzamientos, lo que ha conllevado al deterioro de las líneas raciales, repercutiendo en la disminución de calidad y cantidad de producción, e influyendo directamente en la rentabilidad. Actualmente, los adelantos biotecnológicos proponen mejorar los niveles productivos de una empresa ganadera, a partir de la inseminación artificial. en donde se está manejando e introduciendo el mejoramiento genético, prácticas que incrementan el valor productivo y reproductivo de los bovinos, haciendo rentable el negocio ganadero y mejorando la competitividad del sector.
     p.mb-5 Para realizar una práctica acorde y bajo todos los parámetros técnicos, los elementos básicos utilizados en la inseminación artificial se presentan en la siguiente infografía:
 
 
-    ImagenInfografica.color-acento-botones.mb-5
+    ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema4/img-3.png', alt='Texto que describa la imagen')
@@ -78,23 +78,23 @@
 
     
     Separador
-    #4_2.titulo-segundo.color-acento-contenido
+    #4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2 Métodos y pasos de Inseminación artificial para las especies de producción
 
     p La IA en animales se desarrolló originalmente para controlar la propagación de enfermedades, evitando el transporte de animales con patógenos potenciales a otras unidades animales para el apareamiento e impidiendo el contacto físico entre individuos. El uso de diluyentes de semen que contienen antibióticos también ayudó a prevenir la transmisión de enfermedades bacterianas. Las ventajas y desventajas de la IA son las siguientes:       
-    .row.mb-5.d-flex.align-items-stretch
+    .row.mb-5.d-flex.align-items-stretch(data-aos="fade-left")
       .col-lg-6
         .crd_02.mb-5
           .crd_02__icon.dan
             img(src="@/assets/curso/temas/tema4/img-4.svg", alt="alt")          
           .crd_02__txt
             h6 Ventajas:
-            p.mb-0 -No se necesita detección de calor.
-            p.mb-0 Mejora la eficiencia reproductiva en hatos.
-            p.mb-0 Se utiliza en cualquier estado del ciclo estral.
-            p.mb-0 Reduce el tiempo entre partos.
-            p.mb-0 Induce el estro en vacas con problemas de quistes.
-            p.mb-0 Mejora el porcentaje de preñez.
+            p.mb-0 ● No se necesita detección de calor.
+            p.mb-0 ● Mejora la eficiencia reproductiva en hatos.
+            p.mb-0 ● Se utiliza en cualquier estado del ciclo estral.
+            p.mb-0 ● Reduce el tiempo entre partos.
+            p.mb-0 ● Induce el estro en vacas con problemas de quistes.
+            p.mb-0 ● Mejora el porcentaje de preñez.
       
       .col-lg-6
         .crd_02.mb-5
@@ -102,10 +102,10 @@
             img(src="@/assets/curso/temas/tema4/img-5.svg", alt="alt")          
           .crd_02__txt
             h6 Desventajas:
-            p.mb-0 Requiere operaciones bien entrenadas y equipo especial.
-            p.mb-0 Requiere más tiempo que los servicios naturales.
-            p.mb-0 La limpieza inadecuada de los instrumentos y las precarias  condiciones higiénicas puede conducir a una menor fertilidad.
-            p.mb-0 Si el semen del toro no se analiza adecuadamente, se incrementará la propagación de enfermedades genitales.
+            p.mb-0 ● Requiere operaciones bien entrenadas y equipo especial.
+            p.mb-0 ● Requiere más tiempo que los servicios naturales.
+            p.mb-0 ● La limpieza inadecuada de los instrumentos y las precarias  condiciones higiénicas puede conducir a una menor fertilidad.
+            p.mb-0 ● Si el semen del toro no se analiza adecuadamente, se incrementará la propagación de enfermedades genitales.
 
     p A partir del avance en la comprensión de la fisiología ovárica en rumiantes en las últimas décadas, ha sido posible el diseño de nuevas estrategias farmacológicas para controlar la reproducción de las hembras. De este modo hoy es posible sincronizar o inducir la ovulación de manera muy precisa, tanto en hembras que están ciclando como aquellas que se encuentran en postparto. Sumado a esto, el grado de sincronización que se logra con estos tratamientos es tal que permite realizar la inseminación a un tiempo predeterminado sin necesidad de detectar el estro, es conocida como Inseminación Artificial a Tiempo Fijo (IATF). Mediante la IATF entonces es posible superar las dos limitantes principales que históricamente habían representado un obstáculo para la adopción de la inseminación artificial en vacas de cría: el anestro posparto y la detección de celo.
 
@@ -149,7 +149,7 @@
           img(src='@/assets/curso/temas/tema4/img-9.png')
 
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
       .tarjeta.color-acento-contenido.fnd-5
         .row.justify-content-center.mb-3
             img(src='@/assets/curso/temas/tema4/img-10.jpg' alt='AvatarTop')

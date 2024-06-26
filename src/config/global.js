@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Reproducción natural en las especies pecuarias',
+    componenteFormativo: 'Reproducción pecuaria con criterios agroecológicos.',
     descripcionCurso:
       'La reproducción es la base fundamental en los ciclos productivos y eje de la economía animal, porque un bajo índice de natalidad genera: retraso económico, pérdida de rentabilidad y retardo en tiempos productivos. De allí, la importancia en la detección de celos para cada especie, el alistamiento para la monta, el seguimiento del cronograma productivo y reproductivo, el bienestar animal y otras actividades que coordinadamente impulsen la producción pecuaria.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -34,28 +34,28 @@ export default {
           {
             numero: '1.1',
             titulo: 'Características reproductivas de las especies pecuarias',
-            hash: 't_1_1',
+            hash: '1_1',
           },
           {
             numero: '1.2',
             titulo:
               'Bienestar animal en proceso reproductivo de las especies pecuarias',
-            hash: 't_1_2',
+            hash: '1_2',
           },
           {
             numero: '1.3',
             titulo: 'Anatomía del aparato reproductor de la hembra y el macho',
-            hash: 't_1_3',
+            hash: '1_3',
           },
           {
             numero: '1.4',
             titulo: 'Celo',
-            hash: 't_1_4',
+            hash: '1_4',
           },
           {
             numero: '1.5',
             titulo: 'Mecanismos y herramientas para la detección del celo',
-            hash: 't_1_5',
+            hash: '1_5',
           },
         ],
       },
@@ -71,12 +71,12 @@ export default {
             numero: '2.1',
             titulo:
               'Elementos de conducción, sujeción e inmovilización para los animales en reproducción',
-            hash: 't_2_1',
+            hash: '2_1',
           },
           {
             numero: '2.2',
             titulo: 'Principales enfermedades reproductivas por especie animal',
-            hash: 't_2_2',
+            hash: '2_2',
           },
         ],
       },
@@ -89,50 +89,50 @@ export default {
           {
             numero: '3.1',
             titulo: 'Fisiología de la reproducción natural',
-            hash: 't_3_1',
+            hash: '3_1',
           },
           {
             numero: '3.2',
             titulo:
               '3.2  Definición y descripción del ciclo estral de los animales domésticos',
-            hash: 't_3_2',
+            hash: '3_2',
           },
           {
             numero: '3.3',
             titulo: 'Proceso reproductivo de la monta natural',
-            hash: 't_3_3',
+            hash: '3_3',
           },
           {
             numero: '3.4',
             titulo:
               'Cronograma de proceso de monta natural en animales domésticos',
-            hash: 't_3_4',
+            hash: '3_4',
           },
           {
             numero: '3.5',
             titulo: 'Comportamiento reproductivo animal',
-            hash: 't_3_5',
+            hash: '3_5',
           },
           {
             numero: '3.6',
             titulo: 'Gestación por especie animal',
-            hash: 't_3_6',
+            hash: '3_6',
           },
           {
             numero: '3.7',
             titulo: 'Evaluación de parámetros reproductivos',
-            hash: 't_3_7',
+            hash: '3_7',
           },
           {
             numero: '3.8',
             titulo:
               'Aspectos generales del parto y la lactancia en las especies animales',
-            hash: 't_3_8',
+            hash: '3_8',
           },
           {
             numero: '3.9',
             titulo: 'Evaluación de parámetros reproductivos. ',
-            hash: 't_3_9',
+            hash: '3_9',
           },
         ],
       },
@@ -145,13 +145,13 @@ export default {
           {
             numero: '4.1',
             titulo: 'Elementos necesarios para la IA',
-            hash: 't_4_1',
+            hash: '4_1',
           },
           {
             numero: '4.2',
             titulo:
               'Métodos y pasos de Inseminación artificial para las especies de producción',
-            hash: 't_4_2',
+            hash: '4_2',
           },
         ],
       },
@@ -165,24 +165,24 @@ export default {
           {
             numero: '5.1',
             titulo: 'Definición y aplicación del POE en reproducción natural',
-            hash: 't_5_1',
+            hash: '5_1',
           },
           {
             numero: '5.2',
             titulo:
               'Tipos, procedimiento, registros y manejo en reproducción natural',
-            hash: 't_5_2',
+            hash: '5_2',
           },
           {
             numero: '5.3',
             titulo: 'Buenas prácticas pecuarias en reproducción natural',
-            hash: 't_5_3',
+            hash: '5_3',
           },
           {
             numero: '5.4',
             titulo:
               'Normas de salud y seguridad en el trabajo y medio ambiente en explotaciones pecuarias dedicadas a la reproducción animal',
-            hash: 't_5_4',
+            hash: '5_4',
           },
         ],
       },
@@ -296,7 +296,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=nUgDS7APBmA',
     },
     {
-      tema: '2.     Parámetros reproductivos en las especies pecuarias ',
+      tema: '3. Parámetros reproductivos en las especies pecuarias ',
       referencia:
         'Bustillo, J.      y Melo, J.      (2020). Parámetros reproductivos y      eficiencia reproductiva en ganado bovino. Universidad Cooperativa de Colombia.',
       tipo: 'PDF',
@@ -322,7 +322,7 @@ export default {
     },
     {
       tema:
-        '3.     Procedimientos estandarizados      y de seguridad y salud en el trabajo en la explotación destinada a la reproducción animal ',
+        '4. Procedimientos estandarizados      y de seguridad y salud en el trabajo en la explotación destinada a la reproducción animal ',
       referencia:
         'Ministerio del Trabajo. (s. f.). Sistema de Gestión de Seguridad y Salud en el Trabajo. Gov.co.',
       tipo: 'Página web',
@@ -372,43 +372,43 @@ export default {
     {
       termino: 'Higiene',
       significado:
-        ' Limpieza y/o aseo para conservar la salud o lugares limpios.',
+        'Limpieza y/o aseo para conservar la salud o lugares limpios.',
     },
     {
       termino: 'Medicina preventiva',
-      significado: ' La unión de prácticas médicas para evitar la enfermedad.',
+      significado: 'La unión de prácticas médicas para evitar la enfermedad.',
     },
     {
       termino: 'Mucus',
       significado:
-        ' Sustancia espesa y viscosa que recubre y humedece ciertas partes.',
+        'Sustancia espesa y viscosa que recubre y humedece ciertas partes.',
     },
     {
       termino: 'Natalidad',
-      significado: ' Número de crías nacidas en un periodo determinado.',
+      significado: 'Número de crías nacidas en un periodo determinado.',
     },
     {
       termino: 'Placenta',
       significado:
-        ' Masa esponjosa, adherida al útero, y a través de la cual se establece el intercambio de oxígeno y sustancias nutritivas entre la madre y el embrión.',
+        'Masa esponjosa, adherida al útero, y a través de la cual se establece el intercambio de oxígeno y sustancias nutritivas entre la madre y el embrión.',
     },
     {
       termino: 'Reproductores',
-      significado: ' Animales que están destinados solo a la reproducción.',
+      significado: 'Animales que están destinados solo a la reproducción.',
     },
     {
       termino: 'Secado',
       significado:
-        ' Periodo entre dos lactaciones donde la ubre descansa y se regenera para la siguiente lactación.',
+        'Periodo entre dos lactaciones donde la ubre descansa y se regenera para la siguiente lactación.',
     },
     {
       termino: 'Semen',
-      significado: ' Líquido corporal que lleva los espermatozoides.',
+      significado: 'Líquido corporal que lleva los espermatozoides.',
     },
     {
       termino: 'Unidad pecuaria',
       significado:
-        ' Es el terreno aprovechado total o parcialmente para la producción pecuaria. ',
+        'Es el terreno aprovechado total o parcialmente para la producción pecuaria. ',
     },
   ],
   referencias: [

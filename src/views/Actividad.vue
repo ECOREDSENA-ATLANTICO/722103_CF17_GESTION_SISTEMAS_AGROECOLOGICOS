@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Cuestionario reproducción natural en las especies pecuarias
-        p.mb-4 #[b Identificar los temas principales del componente formativo Reproducción natural en las especies pecuarias.] 
+          h2 Inseminación artificial en especies bovinas
+        p.mb-4 #[b Reconocer las características de la inseminación artificial en especies pecuarias a través de los criterios técnicos, para aplicarlo en la práctica.] 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Cuestionario verdadero o falso
+              p.fw-bold.mb-0 verdadero o falso
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
