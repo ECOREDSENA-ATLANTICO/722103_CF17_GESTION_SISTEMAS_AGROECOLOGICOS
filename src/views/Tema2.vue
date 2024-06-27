@@ -32,8 +32,8 @@
               img.img-t.img-izq(src='@/assets/curso/temas/tema2/img-3.png')
               
           .col-lg-8.px-3
-            p #[span(style="color: #FFA686;" class="vii") ● ]Al momento de comprar animales reproductores, es importante solicitar la historia clínica del animal, registros de vacunación, registros de montas, realizar un análisis físico y sanguíneo para descartar cualquier tipo de enfermedad que pueda ser perjudicial para la producción. 
-            p  #[span(style="color: #FFA686;" class="vii") ● ]Realizar una limpieza del órgano reproductor, tanto de la hembra como del macho; importante hacerlo tanto antes como después de la monta.
+            p #[span(style="color: #FFA686;" ) ● ]Al momento de comprar animales reproductores, es importante solicitar la historia clínica del animal, registros de vacunación, registros de montas, realizar un análisis físico y sanguíneo para descartar cualquier tipo de enfermedad que pueda ser perjudicial para la producción. 
+            p  #[span(style="color: #FFA686;") ● ]Realizar una limpieza del órgano reproductor, tanto de la hembra como del macho; importante hacerlo tanto antes como después de la monta.
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in")
       .col-lg-8

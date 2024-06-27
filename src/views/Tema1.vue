@@ -612,7 +612,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema1/img-45.jpg')
+              img(src='@/assets/curso/temas/tema1/img-45.png')
 
           .col-md-8.mb-4.mb-md-0
             p Los animales marcadores son y serán usados, ya que nada mejor que el macho para saber cuándo montar a la hembra, además de esto, realizar un proceso de estímulo hacia la hembra hará que entre mucho más rápido a la madurez cuando hay un macho cerca. Teniendo en cuanta estos animales marcadores o probadores existen varias formas de utilizarlos, ya sea utilizando dispositivos electrónicos de detección de monta o marcadores.
