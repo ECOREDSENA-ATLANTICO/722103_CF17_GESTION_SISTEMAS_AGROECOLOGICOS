@@ -136,9 +136,26 @@
       .col-lg-8
         p En el contexto productivo mundial, se busca siempre la implementación de buenas prácticas en la producción primaria, donde entidades como la FAO y OMS brindan principios para el análisis de riesgos y ayudar al lineamiento de las prácticas de bioseguridad e higiene, guiando así al productor e incentivando a realizar las cosas bien; en eso se traducen las buenas prácticas, en hacer las cosas bien y como son debidas, para evitar enfermedades en los animales, garantizar un producto inocuo, y así alcanzar estándares productivos importantes.     
         p En Colombia, se encuentra como ente regulador y guía al Instituto Colombiano Agropecuario (ICA), el cual, con sus diferentes normativas y decretos, establece diferentes requisitos sanitarios y de inocuidad, para así asegurar un producto final que no sea perjudicial para el consumidor.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
 
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema5/img-6-1.png')
+              
+          .tarjeta.fnd-1.color-secundario.fnd-w.p-3(x="43.5%" y="45%" numero="●" )
+            p Enfocada en mantener los animales sanos, mantener la bioseguridad del sistema productivo, prevenir la trasmisión de las enfermedades entre los animales, trazabilidad.
+
+          .tarjeta.color-secundario.fnd-w.p-3(x="73%" y="43%" numero="●" )
+            p Limitar el potencial impacto de los sistemas productivos sobre el medio ambiente y riesgos a la inocuidad.
+          .tarjeta.color-secundario.fnd-w.p-3(x="19%" y="83%" numero="●" )
+            p Animales sanos y productivos, proporcionar un entorno seguro, mejorar la productividad de la mano de obra, personal capacitado, con conocimiento, habilidades y capacidades apropiadas para hacer el trabajo.
+          .tarjeta.color-secundario.fnd-w.p-3(x="80%" y="82%" numero="●" )
+            p Prevenir la presencia de residuos químicos, mantener sanos y productivos a los animales con alimentos de buena calidad, preservar el suministro de agua y los alimentos para los animales libres de contaminantes químicos.
+                        
     .row.justify-content-star.align-items-center.mb-3(data-aos="fade-left")
-      .col-lg-2.ttl-1.mb-3
+      .col-auto.ttl-1.mb-3
         h5.m-0.text-white.text-center Decreto 1500 de 2007
       .row.justify-content-center.align-items-center
         .col-lg-10
@@ -147,7 +164,7 @@
           figure
             img(src="@/assets/curso/temas/tema5/img-7.svg", alt="alt") 
     .row.justify-content-star.align-items-center.mb-3
-      .col-lg-2.ttl-1.mb-3
+      .col-auto.ttl-1.mb-3
         h5.m-0.text-white.text-center Decreto 616 de 2006
       p El presente decreto tiene por objeto establecer el reglamento técnico a través del cual se señalan los requisitos que debe cumplir la leche de animales bovinos, bufalinos y caprinos destinada para el consumo humano, con el fin de proteger la vida, la salud y la seguridad humana y prevenir las prácticas que puedan inducir a error, confusión o engaño a los consumidores (Ministerio de la Protección Social, 2006).
 
