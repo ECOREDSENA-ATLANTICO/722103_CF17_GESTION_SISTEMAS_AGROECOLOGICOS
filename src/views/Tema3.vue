@@ -685,13 +685,13 @@
     p Tradicionalmente, el parto se ha dividido en tres etapas y la transición entre ellas se lleva a cabo de forma gradual. Las tres etapas se presentan a continuación:
 
     .row.justify-content-center.align-items-stretch.d-flex.mb-5(data-aos="fade-left")
-      .col-lg-6.col-xl-4.mb-3
+      .col-lg-6.col-xl-4.mb-3.mb-lg-0
         .tarjeta.color-acento-contenido.fnd-6
           .row.justify-content-center.mb-3
               img(src='@/assets/curso/temas/tema3/img-30.png' alt='AvatarTop')
           h6.text-center Fase de preparación
           p.text-center Alteración de la hembra tanto a nivel externo (comportamiento), como interno (moco bulbar, relajación de ligamentos).
-      .col-lg-6.col-xl-4.mb-3
+      .col-lg-6.col-xl-4.mb-3.mb-lg-0
         .tarjeta.color-acento-contenido.fnd-6
           .row.justify-content-center.mb-3
               img(src='@/assets/curso/temas/tema3/img-31.png' alt='AvatarTop')
