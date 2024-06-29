@@ -23,7 +23,7 @@
         h3.mb-0 Medicina preventiva
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-3
         figure
           img(src="@/assets/curso/temas/tema5/img-2.png", alt="alt") 
       .col-lg-9
@@ -58,11 +58,11 @@
             p Permite el control de factores de riesgo que puedan afectar la salud del trabajador (accidentes de trabajo).
 
       .col-lg-6
-        figure
+        figure.mb-3
           img(src="@/assets/curso/temas/tema5/img-3.svg", alt="alt") 
       p Ahora, se deben tener en cuenta unos puntos para un manejo adecuado y seguro de los animales:
 
-    .row.justify-content-center.mb-5.d-flex.align-items-stretch
+    .row.justify-content-center.d-flex.align-items-stretch
       .col-lg-12.px-3
         figure
           img(src="@/assets/curso/temas/tema5/img-3-.svg", alt="alt") 
@@ -130,7 +130,7 @@
       h2 5.3 Buenas prácticas pecuarias en reproducción natural
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src="@/assets/curso/temas/tema5/img-6.png", alt="alt") 
       .col-lg-8
@@ -139,26 +139,26 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
 
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema5/img-6-1.png')
               
-          .tarjeta.fnd-1.color-secundario.fnd-w.p-3(x="43.5%" y="45%" numero="●" )
+          .tarjeta.fnd-1.color-secundario.fnd-w.p-3(x="43.5%" y="45%" numero="+" )
             p Enfocada en mantener los animales sanos, mantener la bioseguridad del sistema productivo, prevenir la trasmisión de las enfermedades entre los animales, trazabilidad.
 
-          .tarjeta.color-secundario.fnd-w.p-3(x="73%" y="43%" numero="●" )
+          .tarjeta.color-secundario.fnd-w.p-3(x="73%" y="43%" numero="+" )
             p Limitar el potencial impacto de los sistemas productivos sobre el medio ambiente y riesgos a la inocuidad.
-          .tarjeta.color-secundario.fnd-w.p-3(x="19%" y="83%" numero="●" )
+          .tarjeta.color-secundario.fnd-w.p-3(x="19%" y="83%" numero="+" )
             p Animales sanos y productivos, proporcionar un entorno seguro, mejorar la productividad de la mano de obra, personal capacitado, con conocimiento, habilidades y capacidades apropiadas para hacer el trabajo.
-          .tarjeta.color-secundario.fnd-w.p-3(x="80%" y="82%" numero="●" )
+          .tarjeta.color-secundario.fnd-w.p-3(x="80%" y="82%" numero="+" )
             p Prevenir la presencia de residuos químicos, mantener sanos y productivos a los animales con alimentos de buena calidad, preservar el suministro de agua y los alimentos para los animales libres de contaminantes químicos.
                         
     .row.justify-content-star.align-items-center.mb-3(data-aos="fade-left")
       .col-auto.ttl-1.mb-3
         h5.m-0.text-white.text-center Decreto 1500 de 2007
       .row.justify-content-center.align-items-center
-        .col-lg-10
+        .col-lg-10.mb-3
          p Mediante el Decreto 1500 de 2007, se estableció el reglamento técnico, a través del cual se crea el Sistema Oficial de Inspección, Vigilancia y Control de la Carne y Productos Cárnicos Comestibles destinados para el Consumo Humano, y se fijaron los requisitos sanitarios y de inocuidad que se deben cumplir en su producción primaria, beneficio, desposte, desprese, procesamiento, almacenamiento, transporte, comercialización, expendio, importación o exportación (Ministerio de la Protección Social, 2007), donde su campo de aplicación son “las especies de animales domésticos, como búfalos domésticos, respecto de las cuales su introducción haya sido autorizada al país por el Gobierno Nacional, bovinos, porcinos, caprinos, ovinos, aves de corral, conejos, equinos y otros, cuya carne y productos cárnicos comestibles sean destinados al consumo humano, excepto los productos de la pesca, moluscos y bivalvos” (Ministerio de la Protección Social, 2007).
         .col-lg-2
           figure
@@ -174,7 +174,7 @@
       h2 5.4 Normas de salud y seguridad en el trabajo y medio ambiente, en explotaciones pecuarias dedicadas a la reproducción animal
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-3
+      .col-lg-3.mb-3
         figure
           img(src="@/assets/curso/temas/tema5/img-8.svg", alt="alt") 
       .col-lg-9
@@ -243,7 +243,7 @@
           p La Organización Mundial de la Salud (OMS) define la salud como un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades. Según la Guía Técnica Colombiana GTC 45/2012, en las empresas, los empleados se encuentran expuestos a diferentes riesgos, como biológicos, físicos, químicos, psicosociales, biomecánicos, relacionados con las condiciones de seguridad, y por desastres naturales.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-8         
+      .col-lg-8.mb-3        
         p Algunos riesgos son:
         p.mb-0 <b>Biológicos:</b> son de alta preocupación por la posible presencia o desarrollo de enfermedades zoonóticas.
         p.mb-0 <b>Físicos:</b> en el caso del manejo de animales que son impredecibles en su comportamiento; además de los objetos de manipulación para animales que requieren una manipulación adecuada para evitar accidentes; instalaciones con poca infraestructura segura para los trabajadores; ruidos que puedan afectar el nivel de audición.

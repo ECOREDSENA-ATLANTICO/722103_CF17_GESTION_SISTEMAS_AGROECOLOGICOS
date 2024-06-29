@@ -158,11 +158,11 @@
       span Órganos genitales hembras
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        figure.mb-5
+        figure
           img(src='@/assets/curso/temas/tema1/img-12.svg', alt='Órganos genitales hembras. En la figura se representa los internos: ovarios, oviducto, cuernos útero, cérvix, vagina, grupo genital externo: vulva con los labios vulvares, clítoris.')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-lg-8
+      .col-lg-8.mb-3
         p El aparato reproductor de las hembras varía, según la especie, en tamaño, forma y, en algunos casos, estructura, pero su anatomía y características anatómicas son las mismas, siendo este un grupo de estructuras tubulares que posee capas, cada una con sus funciones específicas de adentro hacia fuera. Se observa la mucosa, la cual se encarga de la secreción de lubricación y mucus, la submucosa, que dentro de sus funciones está la de sostener la mucosa y llevar toda la irrigación e inervación; se continúa con una capa muscular, la cual ayuda a la producción de contracciones y sostenimiento; y por último se encuentra la serosa, siendo un tejido conectivo y formadores epiteliales.
 
         p Un recorrido por los aparatos reproductores de diferentes especies, permitirá conocer un poco más sobre éste tema:
@@ -453,8 +453,8 @@
               img(src='@/assets/curso/temas/tema1/img-35.png', alt='Texto que describa la imagen')
       
     p Otras estructuras reproductivas del macho, son:
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-lg-4
+    .row.justify-content-center.align-items-center(data-aos="zoom-in")
+      .col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema1/img-37.png')
       .col-lg-8
@@ -481,7 +481,7 @@
       span Cambios comportamentales y físicos del celo
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        figure.mb-5
+        figure
           img(src='@/assets/curso/temas/tema1/img-38.png', alt='Cambios comportamentales y físicos del celo En la figura se observan los cambios comportamentales y físicos del celo.')
 
     p Aunque estos signos hablan claramente de la presencia del celo, también es importante tener en cuenta la edad del animal y su especie. En las hembras, se encuentran diferentes tipos de presentación del celo, según su periodicidad:
@@ -507,8 +507,8 @@
             p.mb-0 <b>●	Poliéstricas estacionales:</b> yeguas, gatas, cabras y ovejas.      
 
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-6
+    .row.justify-content-center(data-aos="zoom-in")
+      .col-lg-6.mb-3
         p.mb-5 Tenga en cuenta que las poliéstricas se diferencian por el número de celos presentados en el año.<br>¿Cuánto tiempo dura el celo en la vaca, la oveja, la cerda y la yegua?
         ul.lista-ul--color.px-3
           li 
@@ -553,7 +553,7 @@
 
     p Dentro de los mecanismos, se tiene el más económico, práctico y rápido, pero requiere experiencia, un ojo entrenado, unos periodos de observación, un tiempo de observación prudente, para aprender a diferenciar puntos clave. 
     p La observación visual es la forma más común de detectar vacas en celo, dado que es la más simple, pero también tiende a ser la más subjetiva y con tendencia al error, aparte de que el comportamiento animal, en ocasiones, tiende a variar, ya que algunos animales muestran ciertas conductas y otros no.  
-    p La escala de puntos para el comportamiento estral es:
+    p.mb-5 La escala de puntos para el comportamiento estral es:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
@@ -598,16 +598,16 @@
                 td.tc4 100
 
       .row.justify-content-center
-        .col-lg-8
+        .col-lg-8.mb-3
           p En la tabla anterior, Van Eerdenburg muestra unos comportamientos mediante ciertos puntos, los cuales serían como una calificación para la identificación de celo, donde una vaca con 50 puntos o más era positiva para celo, y la aceptación completa de la monta resulta en un 100. Es recomendable realizar observaciones largas, frecuentes y en diferentes horarios del día, ya que los animales no tienen una hora estipulada para mostrar dichas conductas. “Además, dada la tranquilidad y reducción de actividad de la granja durante las horas nocturnas, hay muchas vacas que muestran la sintomatología del celo por la noche” (Arthur et al., 1991).
         .col-lg-4
-          figure.mb-5
+          figure
             img(src='@/assets/curso/temas/tema1/img-44.jpg')
 
     h3.mb-5 Mecanismos y herramientas para la detección del celo
 
 
-    TabsB.color-acento-contenido.mb-5.fnd-2-(data-aos="fade-left")
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Animales marcadores")
         .row.justify-content-center.align-items-center.mb-5
           .col-md-4

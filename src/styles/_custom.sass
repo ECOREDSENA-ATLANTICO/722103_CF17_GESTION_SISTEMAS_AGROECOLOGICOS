@@ -74,7 +74,6 @@
   justify-content: center  
 .img-izq 
   position: relative
-
   @media (min-width: 992px)  
     position: relative
     top: 0
@@ -84,6 +83,8 @@
   @media (max-width: 992px)  
     transform: translate(50%, 0)   
     margin-bottom: 1.5rem 
+  @media (max-width: $bp-max-xs)
+    transform: none
 
 .img-t 
   max-height: 250px
@@ -488,3 +489,35 @@ $crd-width2: calc(100% - ((#{$crd-icon-size2} / 2))
 .naa
   font-size: 0.6rem !important
   margin-top: 0.4%  
+
+.bg_grad-01
+  position: relative
+  p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 25px
+    left: -30px
+    width: calc( 100% + 72px )
+    height: 90%
+    background-color: #FFF3EF
+    @media (max-width: $bp-max-xs)
+      height: 98%
+.ancho-tarjeta
+  width: 600px
+  @media (max-width: $bp-max-xs)
+    width: 370px
+.titulo-tarjeta
+  color: #DEEBAD
+  font-size: 100px
+  font-weight: bold
+  @media (max-width: $bp-max-xs)
+    font-size: 80px
+.pst  
+  .img-infografica__card
+    left: 30% !important
+    @media (max-width: $bp-max-xs)
+      left: -10px !important
+      

@@ -233,7 +233,7 @@
 
 
 
-    TabsA.color-acento-contenido.mb-4(data-aos="fade-left")
+    TabsA.color-acento-contenido(data-aos="fade-left")
       .tarjeta.color-acento-contenido.fnd-2.p-4(titulo="Monoéstricas")
         p Dentro de las monoéstricas, se encuentran las hembras que presentan un solo ciclo, ya que presentan una fase de anestro prolongado, la duración entre ciclos estrales varía entre 6 y 12 meses, por lo que pasan gran parte del año en reposo sexual. 
       .tarjeta.color-acento-contenido.fnd-2.p-4(titulo="Poliéstricas no estacionales")
@@ -254,7 +254,7 @@
         h3.mb-0 Monta natural: 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-6
+      .col-lg-6.mb-3
         p Se da en un proceso en el cual un macho reproductor comparte con las hembras en el potrero, rebaño. La relación macho-hembras depende del sistema productivo y de las características de los animales; se recomienda que sea de esta manera:
 
         ul.lista-ul--color
@@ -302,7 +302,7 @@
     .titulo-sexto.color-acento-contenido
       h5 Figura 5.
       span Ventajas y desventajas monta natural selectiva
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         figure.mb-5
           img(src='@/assets/curso/temas/tema3/img-13.svg', alt='En la figura se observan las ventajas y desventajas de monta natural selectiva')
@@ -324,7 +324,7 @@
     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-left")
       LineaTiempoC.color-secundario(text-small)
         .row.justify-content-center.align-items-center(titulo="Pene y prepucio")
-          .col-md-7.px-5
+          .col-md-7.px-lg-5.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img-14.jpg', alt='')
           .col-md-5.mb-4.mb-md-0
@@ -339,21 +339,21 @@
             p Donde la consistencia es la resistencia que este ejerce frente a la presión dada por la yema de los dedos y la elasticidad es la suficiencia que tienen los testículos para regresar a su lugar después de la fuerza ejercida.
             p Para la medición se utilizan diferentes escalas o criterios de medición, los cuales pueden llegar a ser muy subjetivos escala galloway donde 1 fibrosis-nula elasticidad. 2, 3,4 tono normal- buena elasticidad. 5 flaccidez-esponjosidad.
         .row.justify-content-center.align-items-center(titulo="Glándulas accesorias ")
-          .col-md-7.px-5
+          .col-md-7.px-lg-5.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img-15.jpg', alt='')
           .col-md-5.mb-4.mb-md-0
             p La palpación de las glándulas accesorias en los machos se realiza de forma rectal donde se evalúa tamaño, posición y normalidad al tacto, dentro de estas se evalúa la próstata, glándulas bulbo uretrales y vesículas seminales.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-lg-8
+      .col-lg-8.mb-3
         p Luego, se evalúa la aptitud de monta, que es la capacidad comportamental que tiene el macho para montar a la hembra desde la identificación, acercamiento, el Flehmen, el cortejo e inmovilidad por parte de la hembra, la monta, la penetración, y por último, la eyaculación, o en algunos casos, se le nombra como golpe de riñón, el cual es signo inequívoco de eyaculación.
         p Por último y no menos importante, se evalúa el componente seminal. Inicialmente, de forma macroscópica, observando que el volumen y el aspecto sean normales, que no se vean grumos, que su coloración sea la normal de la especie, normalmente son cremosos grisáceos, que en volumen sea el contenido necesario; para después, microscópicamente, evaluar motilidad, y motilidad masal, la cual comprende la cantidad de espermatozoides móviles; viabilidad, que es la evaluación de espermatozoides vivos y muertos; concentración, que es el número de espermatozoides en un metro cúbico eyaculado; y morfología, que evalúa la proporción de espermatozoides anormales según sus condiciones morfológicas.
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img-16.png', alt='')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
         .crd_02.fnd-1-
           .crd_02__icon.dan
@@ -366,7 +366,7 @@
     #3_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.4 Cronograma de proceso de monta natural en animales domésticos
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-3
         figure
           img(src='@/assets/curso/temas/tema3/img-18.png', alt='')
       .col-lg-9
@@ -416,7 +416,7 @@
               td Dependiendo de la especie, número de días de secado.   
             tr
 
-    p Ahora, observe un ejemplo de cronograma de reproducción ganado bovino.
+    p.mb-5 Ahora, observe un ejemplo de cronograma de reproducción ganado bovino.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
@@ -548,7 +548,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-5.fnd-2
-          .col-lg-4
+          .col-lg-4.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img-20.png', alt='')
           .col-lg-8      
@@ -611,7 +611,7 @@
     Separador
     #3_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       h2 3.7. Evaluación de parámetros reproductivos
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-3
         p La evaluación de dichos parámetros es muy importante porque, de esta manera, se evalúa el sistema productivo y se identifican verdaderamente las falencias frente a animales o frente a procesos realizados en estos mismos animales, como se muestra a continuación.
       .col-lg-9
@@ -685,13 +685,13 @@
     p Tradicionalmente, el parto se ha dividido en tres etapas y la transición entre ellas se lleva a cabo de forma gradual. Las tres etapas se presentan a continuación:
 
     .row.justify-content-center.align-items-stretch.d-flex.mb-5(data-aos="fade-left")
-      .col-lg-6.col-xl-4
+      .col-lg-6.col-xl-4.mb-3
         .tarjeta.color-acento-contenido.fnd-6
           .row.justify-content-center.mb-3
               img(src='@/assets/curso/temas/tema3/img-30.png' alt='AvatarTop')
           h6.text-center Fase de preparación
           p.text-center Alteración de la hembra tanto a nivel externo (comportamiento), como interno (moco bulbar, relajación de ligamentos).
-      .col-lg-6.col-xl-4
+      .col-lg-6.col-xl-4.mb-3
         .tarjeta.color-acento-contenido.fnd-6
           .row.justify-content-center.mb-3
               img(src='@/assets/curso/temas/tema3/img-31.png' alt='AvatarTop')
@@ -722,7 +722,7 @@
                 p.text-small.mb-0 Los recién nacidos deben consumir leche en menos de 24 horas para poder absorber estas inmunoglobulinas por el sistema digestivo. Las principales inmunoglobulinas del calostro son IgA, IgM e IgG. Si el tiempo es mayor, el epitelio intestinal impedirá el paso de estas importantes proteínas y el recién nacido quedará desprotegido.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7.mb-3
         p Cabe señalar que el calostro de la vaca también tiene compuestos como lisozimas, lactoferrina y lacto peroxidasa que tienen efectos antibióticos. El calostro destaca por su alta composición en grasas, vitaminas y proteínas. Por el contrario, su proporción de hidratos de carbono es baja.
         p La vaca inicia la lactancia con la producción de calostro que durará unos días. Posteriormente, el calostro desaparecerá, dando lugar a la leche común. Es decir, con el paso de los días, la leche irá cambiando en su composición y aspecto. Alrededor de 3 a 4 semanas después de comenzar a amamantar, la vaca alcanza su punto máximo de producción de leche.
         p El período de lactancia dura aproximadamente 305 días. Después de este período, la vaca entra en el llamado “período seco” donde la vaca no producirá leche. En el período seco, la ubre se deja descansar y recuperarse, preparándose para el próximo período de producción. Para lograr el período seco, no debe ordeñarse la vaca, lo que inhibe la producción.

@@ -22,11 +22,11 @@
 
 
     p Ahora, el uso de reproductores representa un mayor reto hablando bajo condiciones de bioseguridad, debido a que se debe tener un cuidado especial, tanto del macho como de la hembra, con respecto a la limpieza y desinfección de las diferentes áreas destinadas para la reproducción y/o monta.
-    p Para disminuir y controlar el riesgo de enfermedades, es importante seguir las siguientes recomendaciones:
+    p.mb-5 Para disminuir y controlar el riesgo de enfermedades, es importante seguir las siguientes recomendaciones:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .row.justify-content-start.align-items-center.fnd-2
+        .row.justify-content-start.align-items-center.bg_grad-01
           .col-lg-4
             figure
               img.img-t.img-izq(src='@/assets/curso/temas/tema2/img-3.png')
@@ -90,7 +90,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-6.jpg')
+              img(src='@/assets/curso/temas/tema2/img-6.png')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
             h5 Sogas - lazos
@@ -98,14 +98,14 @@
             
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-7.jpg')
+              img(src='@/assets/curso/temas/tema2/img-7.png')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
             h5 Cabezales
             p Los cabezales son las herramientas de conducción animal más comunes en las diferentes producciones tanto en campo como en exposición, ya que son herramientas verdaderamente útiles, sencillas y que al animal no le genera ningún tipo de estrés ni dolor. Requieren de un proceso de amansamiento. Vienen de distintos materiales como sogas, cuero, nailon, y cadenilla.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-8.jpg')
+              img(src='@/assets/curso/temas/tema2/img-8.png')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
             h5 Cepos para monta / apretaderos Toriles de monta
@@ -113,7 +113,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-9.jpg')
+              img(src='@/assets/curso/temas/tema2/img-9.png')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
             h5 Botalón bramadero
@@ -122,7 +122,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-10.jpg')
+              img(src='@/assets/curso/temas/tema2/img-10.png')
 
 
     Separador
@@ -133,38 +133,30 @@
     p Los causantes de las enfermedades infecciosas pueden ser de tipo bacteriano, virales, parasitarias y hongos, en dichas enfermedades, es de vital importancia identificar, controlar, supervisar, prever y, en caso dado, curar, siempre teniendo como fundamento la bioseguridad y el concepto de que es mejor “prevenir que curar”. 
     p Dentro de las diferentes especies pecuarias, se encuentra gran variedad de enfermedades, causando aumento en los costos productivos y grandes pérdidas económicas para la producción pecuaria.
 
-
-    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="fade-left")
+    ImagenInfografica.color-secundario.pst.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema2/img-11.png')
+          img(src='@/assets/curso/temas/tema2/img-11.png', alt='Texto que describa la imagen')
+
+      .tarjeta.tc3.ancho-tarjeta.p-3(x="29%" y="68%" numero="+")
+        .titulo-tarjeta Bovinos
+        p La brucelosis bovina se produce fundamentalmente por la presencia de la bacteria Brucella abortus (Díaz, 2013) esta enfermedad ingresa al organismo por medio de la vía oral, ya sea por la ingesta de alimentos, agua contaminada o consumo directo de restos de placentas, restos fetales, secreciones vaginales, y en ocasiones el contacto directo de becerros enfermos, el semen puede ser vía de transmisión de la enfermedad.
+
+        p La enfermedad es asintomática en vacas no gestantes, lo cual al momento se convierten en vectores pasivos de la enfermedad, ya que también deber ser objeto de supervisión y acción. Las hembras afectadas generalmente desarrollan una inflamación placentaria, generando abortos entre el quinto y noveno mes de gestación, se presentan signos como la eliminación de mucus vaginal, exudado vaginal con tonalidad y aspecto purulento por la carga de microorganismo bacterianos.
+
+      .tarjeta.tc3.ancho-tarjeta.p-3(x="54%" y="68%" numero="+")
+        .titulo-tarjeta Cerdos
+        p El ganado porcino doméstico está infectado principalmente por Brucella suis, aunque con menor frecuencia puede resultar infectado por B. abortus y por B. melitensis en regiones en las que la brucelosis es endémica en el ganado bovino o en los pequeños rumiantes (Díaz, 2013). El modo de ingreso es generalmente el mismo enunciado en B abortus, mediante las mucosas: orales, nasales, vaginales y conjuntivales. Los signos clínicos son imperceptibles en animales jóvenes. Se puede presentar en ambos sexos siendo el macho portador asintomático. En las producciones generalmente causan afecciones importantes ya que afecta contundentemente la fertilidad, provocando un alto porcentaje de abortos, aumento en la muerte de recién nacidos, ocasionando infertilidad en hembras y así afectando considerablemente la producción.
+
+      .tarjeta.tc3.ancho-tarjeta.p-3(x="80%" y="68%" numero="+")
+        .titulo-tarjeta Ovejas
+        p En el ganado ovino la infección de la brucella militensis los signos son muy parecidos casi iguales a la brucella abortus afectando los factores de fertilidad, aumentando el número de abortos y numero de mortinatos, la vía de exposición es la misma por medio de líquidos fetales, contacto con abortos, placentas contaminadas con dicha bacteria, el contacto con hembras o machos portadores de la enfermedad. En las producciones ganaderas ovinas es común compartir pasturas entre rebaños diferentes y posteriormente retornar al corral siendo este un medio de contaminación de rebaños libres de enfermedad. Para el control de la enfermedad es importante seguir las condiciones sanitarias y de bioseguridad estipuladas por el ente regulador y los predios pecuarios ya que este es un trabajo mancomunado entre el ganadero o productor y el cuidado de animales en condiciones adecuadas para la producción y lograr una rentabilidad y el ente regulador vigilando y supervisando que se realicen bien las actividades.        
 
 
-      row.fnd-center(x="27.3%" y="67.9%" numero="+" tooltip="Ver mas...")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8.fnd-1
-            figure.px-2
-              img.img-78(src='@/assets/curso/temas/tema2/img-b.svg')
-            p.px-3 La brucelosis bovina se produce fundamentalmente por la presencia de la bacteria <em>Brucella abortus</em> (Díaz, 2013) esta enfermedad ingresa al organismo por medio de la vía oral ya sea por la ingesta de alimentos, agua contaminada o consumo directo de restos de placentas, restos fetales, secreciones vaginales, y en ocasiones el contacto directo de becerros enfermos, el semen puede ser vía de transmisión de la enfermedad.
-            p.px-3 La enfermedad es asintomática en vacas no gestantes lo cual al momento se convierten en vectores pasivos de la enfermedad, ya que también deber ser objeto de supervisión y acción. Las hembras afectadas generalmente desarrollan una inflamación placentaria generando abortos entre el quinto y noveno mes de gestación, se presentan signos como la eliminación de mucus vaginal, exudado vaginales con tonalidad y aspecto purulento por la carga de microorganismo bacterianos.
-      row.fnd-center(x="52.8%" y="68.2%" numero="+" tooltip="Ver mas...")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8.fnd-1
-            figure.px-2
-              img.img-78(src='@/assets/curso/temas/tema2/img-c.svg')
-            p.px-3 El ganado porcino doméstico está infectado principalmente por <em>Brucella suis</em>, aunque con menor frecuencia puede resultar infectado por B.<em> abortus</em> y por B. <em>melitensis</em> en regiones en las que la brucelosis es endémica en el ganado bovino o en los pequeños rumiantes (Díaz, 2013). El modo de ingreso es generalmente el mismo enunciado en B <em>abortus</em>, mediante las mucosas: orales, nasales, vaginales y conjuntivales. Los signos clínicos son imperceptibles en animales jóvenes. Se puede presentar en ambos sexos siendo el macho portador asintomático. En las producciones generalmente causan afecciones importantes ya que afecta contundentemente la fertilidad, provocando un alto porcentaje de abortos, aumento en la muerte de recién nacidos, ocasionando infertilidad en hembras y así afectando considerablemente la producción.
-      row.fnd-center(x="80.5%" y="68.5%" numero="+" tooltip="Ver mas...")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8.fnd-1
-            figure.px-2
-              img.img-78(src='@/assets/curso/temas/tema2/img-o.svg')
-            p.px-3 En el ganado ovino la infección de la <em>brucella militensis </em> signos son muy parecidos casi iguales a la <em>brucella abortus </em> los factores de fertilidad, aumentando el número de abortos y numero de mortinatos, la vía de exposición es la misma por medio de líquidos fetales, contacto con abortos, placentas contaminadas con dicha bacteria, el contacto con hembras o machos portadores de la enfermedad. En las producciones ganaderas ovinas es común compartir pasturas entre rebaños diferentes y posteriormente retornar al corral siendo este un medio de contaminación de rebaños libres de enfermedad. Para el control de la enfermedad es importante seguir las condiciones sanitarias y de bioseguridad estipuladas por el ente regulador y los predios pecuarios ya que este es un trabajo mancomunado entre el ganadero o productor y el cuidado de animales en condiciones adecuadas para la producción y lograr una rentabilidad y el ente regulador vigilando y supervisando que se realicen bien las actividades.          
-
-
-    p.mb-5 Su peligrosidad radica en que el humano puede llegar a ser un hospedero accidental, generando una problemática zoonótica.
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    p Su peligrosidad radica en que el humano puede llegar a ser un hospedero accidental, generando una problemática zoonótica.
+    .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-8
-        .row.mb-5
+        .row
           .col-lg-12
             .img-fnd-flot2.mb-3
               img.b-img2(src='@/assets/curso/temas/tema2/img-12.png' alt='Background Image')
@@ -175,7 +167,7 @@
     .tarjeta.tarjeta--azul.p-4.mb-5.fnd-2(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
-          .col-md-8.mb-4.mb-md-0.px-5
+          .col-md-8.mb-4.mb-md-0.px-4
             h5 Leptospirosis (zoonóticas)
             p La leptospirosis es una zoonosis bacteriana de importancia económica en la industria pecuaria, debido a que provoca abortos, mortinatos, infertilidad y disminución en la producción lechera, lo cual genera pérdidas económicas significativas a los productores. (Hernández y Gómez, 2011).
             p La leptospira es una bacteria con características muy complicadas de identificación, ya que posee más de 7 variantes infecciosas, las cuales tienen un hospedador de mantenimiento, que serían los roedores, y unos hospederos accidentales, predominando la variante <em>hardjo</em>, las diferentes especies pecuarias y los humanos (zoonosis); teniendo en cuenta las consideraciones anteriores, es importante su control y vigilancia. ¨La leptospirosis es una enfermedad cuyas manifestaciones clínicas, muy variadas, van desde cuadros subclínicos, abortos, momificaciones y mortalidad al nacimiento, que afecta los ciclos de producción y productividad, hasta provocar complicaciones multiorgánicas que pueden conducir a la muerte. (Hernández y Gómez, 2011).
