@@ -65,7 +65,7 @@
     .row.justify-content-center.d-flex.align-items-stretch
       .col-lg-12.px-3
         figure
-          img(src="@/assets/curso/temas/tema5/img-3-.svg", alt="alt") 
+          img(src="@/assets/curso/temas/tema5/img-3-.svg", alt="1. Preparar la zona a donde serán dirigidos los animales para la reproducción; se deben despejar todos los elementos que no correspondan a la actividad y puedan interferir con la labor, alargando más de lo necesario el proceso y generando riesgo para el trabajador. 2. Asegurar que todos los trabajadores involucrados en la actividad tengan la protección personal adecuada y que estos elementos estén en buen estado para su uso. 3. Tener elementos para una posible sujeción del animal y control del mismo, asegurando su bienestar y el del trabajador. 4. En el momento de un parto distócico, contar con elementos como guantes, bisturí y materiales para inmovilización de hembras. 5. Los productos químicos deben estar en el envase original y correctamente conservados y rotulados. 6. Lavado y desinfección de la zona de apareamiento o monta. 7. Lavado y desinfección de manos en los trabajadores, antes y después de la manipulación e interacción con los animales.   8.	Se debe contar con una zona amplia y despejada para el proceso de apareamiento, para seguridad del trabajador. 9. Elaborar una ruta de evacuación rápida y segura para el trabajador en el lugar de apareamiento de los animales.") 
 
     
     Separador
@@ -103,13 +103,13 @@
               li.mb-0 
                 i.fas.fa-circle.nar
                 | Realizar todo en el orden definido y con el tiempo adecuado entre cada paso, para evitar una contaminación cruzada. 
-                ul.lista-ul--color.px-3
-                  li.mb-0 
-                    i.fas.fa-circle.nar2
-                    | Limpieza en seco. 
-                  li.mb-0 
-                    i.fas.fa-circle.nar2
-                    | Limpieza en húmedo. 
+              ul.lista-ul--color.px-3
+                li.mb-0 
+                  i.fas.fa-circle.nar2
+                  | Limpieza en seco. 
+                li.mb-0 
+                  i.fas.fa-circle.nar2
+                  | Limpieza en húmedo. 
               li.mb-0 
                 i.fas.fa-circle.nar
                 | Sanitización del sistema de agua (por presencia de biofilm).

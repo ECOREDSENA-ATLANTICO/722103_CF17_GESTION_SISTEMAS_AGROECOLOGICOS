@@ -260,16 +260,16 @@
         ul.lista-ul--color
           li.mb-0 
             i.fas.fa-circle.nar
-            | <b>En los cerdos:</b> la relación de macho por hembras es de un verraco por cada 20 o 30 hembras.
+            p <b>En los cerdos:</b> la relación de macho por hembras es de un verraco por cada 20 o 30 hembras.
           li.mb-0 
             i.fas.fa-circle.nar
-            | <b>Para los bovinos:</b> la relación bovina de macho por hembras es de 25 hembras por cada macho.
+            p <b>Para los bovinos:</b> la relación bovina de macho por hembras es de 25 hembras por cada macho.
           li.mb-0 
             i.fas.fa-circle.nar
-            | <b>En los ovinos:</b> la relación varía más o menos de 25 a 40 hembras por macho.  
+            p <b>En los ovinos:</b> la relación varía más o menos de 25 a 40 hembras por macho.  
           li.mb-0 
             i.fas.fa-circle.nar
-            | <b>En los equinos:</b> generalmente, se realiza una monta mucho más selectiva, para la cual se elige el macho con la hembra.
+            p <b>En los equinos:</b> generalmente, se realiza una monta mucho más selectiva, para la cual se elige el macho con la hembra.
 
       .col-lg-6
         figure

@@ -18,7 +18,7 @@
       .col-lg-8
         p Las principales medidas de bioseguridad de las granjas son:
         figure
-          img(src='@/assets/curso/temas/tema2/img-2-.svg')
+          img(src='@/assets/curso/temas/tema2/img-2-.svg' alt='-Al introducir material genético o animales, aislar animales nuevos; comprar animales en sitios reconocidos; asegurarse de que el animal se encuentra bajo condiciones óptimas de vacunación, desparasitación; no introducir animales enfermos a la explotación. - Identificación de entrada de vectores a la producción, ya sea porque está en contacto con otras granjas, plantas de sacrificio, manipuladores de animales. - Identificación de zonas limpias, zonas sucias, restricción de personal en ciertas zonas, restricción de flujo de personal. - Delimitación con cercos perimetrales para evitar la entrada de personas o animales, tanto domésticos como silvestres. - Controlar el ingreso y la salida del personal. - Control de plagas y roedores. - Desinfección de vehículos con arco de desinfección, bomba de aspersión. - Protocolos de limpieza y desinfección de cada área. - Manejo de mortalidad, desechos y residuos.')
 
 
     p Ahora, el uso de reproductores representa un mayor reto hablando bajo condiciones de bioseguridad, debido a que se debe tener un cuidado especial, tanto del macho como de la hembra, con respecto a la limpieza y desinfección de las diferentes áreas destinadas para la reproducción y/o monta.

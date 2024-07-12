@@ -193,23 +193,23 @@
                 p.mb-0 10. Saco reto genital
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-13.png', alt='Imagen de apoyo')
         .row.justify-content-end.align-items-end
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-14.png', alt='Aparato reproductor de la vaca - Vulval - Vestibulo - Vagina - Pelvis - Vejiga - Cérvix - Ovario - Cuellos uterinos - Oviducto - Cuerpo del útero - Recto')
         .row.justify-content-end.align-items-end
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-15.png', alt='Aparato reproductor de la yegua-	Vulva -	Vagina -	Uretra -	Base de la pelvis -	Cérvix -	Vejiga -	Cuerpo del útero -	Trompa de falopio -	Ovario')
         .row.justify-content-end.align-items-end
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-16.png', alt='Aparato reproductor de la cerda -	Aorta -	Arterias uterinas -	Ovario -	Cérvix| -	Oviducto -	Cuernos -	uterinos -	Uretra -	Vejiga -	Recto -	Vagina -	Vulva -	Pelvis')
         .row.justify-content-end.align-items-end
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-17.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-17.png', alt='Aparato reproductor de la cabra -	Vagina -	Útero -	Ano -	Vulva -	Ovario')
     
     .row.justify-content-star.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-1.ttl-1
@@ -377,20 +377,18 @@
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-28.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-28.png', alt='	Anatomía del aparato reproductor del macho bovino -	Pene -	Próstata -	Recto -	Vesículas -	seminales -	Ampula -	Vejiga -	Uretra -	Conducto -	deferente -	Glándulas -	de Cowper -	Músculo -	retractor -	Pene -	Escroto -	Epidídimo')
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-29.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-29.png', alt='	Posición anatómica de los órganos reproductivos machos -	Glándula prostática -	Vesículas seminales -	Uréter -	Vasos sanguíneos espermáticos -	Vejiga -	Glándula bulbouretral -	Uretra -	Conducto deferente -	Epidídimo (cola) -	Saco prepucial -	Escroto -	Testículo -	Pene -	Prepucio -	Epidídimo (cabeza)')
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-30.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-30.png', alt='	Aparato reproductor masculino la uretra -	Vesícula seminal -	Ampula -	Conducto deferente -	Testículo -	Epidídimo -	Glándula -	bulbo-uretral -	Próstata -	Pene -	Musculo retractor -	"S del pene')
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-31.png', alt='Texto que describa la imagen')
-
 
     .row.justify-content-star.align-items-center.mb-3
       .col-lg-1.ttl-1
