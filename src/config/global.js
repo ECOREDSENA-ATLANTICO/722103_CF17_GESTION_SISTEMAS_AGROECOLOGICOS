@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Reproducción pecuaria con criterios agroecológicos.',
     descripcionCurso:
-      'La reproducción es la base fundamental en los ciclos productivos y eje de la economía animal, porque un bajo índice de natalidad genera: retraso económico, pérdida de rentabilidad y retardo en tiempos productivos. De allí, la importancia en la detección de celos para cada especie, el alistamiento para la monta, el seguimiento del cronograma productivo y reproductivo, el bienestar animal y otras actividades que coordinadamente impulsen la producción pecuaria.',
+      'La reproducción es la base fundamental en los ciclos productivos, es el pedestal de la economía animal, porque un bajo índice de natalidad genera un retraso económico, pérdida de la rentabilidad y retardo en tiempos productivos. De allí, la gran importancia en la detección de celos para cada especie, el alistamiento para la monta, el seguimiento del cronograma productivo y reproductivo, el bienestar animal y otras actividades que coordinadamente impulsen la producción pecuaria.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -120,19 +120,14 @@ export default {
           },
           {
             numero: '3.7',
-            titulo: 'Evaluación de parámetros reproductivos',
+            titulo:
+              'Aspectos generales del parto y la lactancia en las especies animales',
             hash: '3_7',
           },
           {
             numero: '3.8',
-            titulo:
-              'Aspectos generales del parto y la lactancia en las especies animales',
+            titulo: 'Evaluación de parámetros reproductivos.',
             hash: '3_8',
-          },
-          {
-            numero: '3.9',
-            titulo: 'Evaluación de parámetros reproductivos. ',
-            hash: '3_9',
           },
         ],
       },
@@ -495,7 +490,7 @@ export default {
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -517,7 +512,7 @@ export default {
         },
         {
           nombre: 'Paola Alexandra Moya Peralta',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
@@ -528,7 +523,7 @@ export default {
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrector de estilo',
+          cargo: 'Corrector de Estilo',
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
       ],
@@ -538,31 +533,31 @@ export default {
       autores: [
         {
           nombre: 'Nelson Vera',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Alexander acosta',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Carmen Martínez',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Jorge Leonardo Camacho',
-          cargo: 'Desarrollo Fullstack ',
+          cargo: 'Desarrollo <em>Full Stack</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Carmen Martínez',
-          cargo: 'Diseño de contenidos digitales',
+          cargo: 'Diseño de Contenidos Digitales',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
@@ -573,31 +568,31 @@ export default {
       autores: [
         {
           nombre: 'Fabian Cuartas',
-          cargo: 'Validación de diseño y contenido',
+          cargo: 'Validación de Diseño y Contenido',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Gilberto Herrera',
-          cargo: 'Validación de diseño y contenido',
+          cargo: 'Validación de Diseño y Contenido',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Jairo Valencia Ebrat',
-          cargo: 'Validación de recursos digitales ',
+          cargo: 'Validación de Recursos Digitales ',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },

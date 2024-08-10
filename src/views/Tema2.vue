@@ -94,7 +94,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
             h5 Sogas - lazos
-            p Las sogas son esenciales para el manejo de los animales, ya que son versátiles y por medio de ellas se pueden realizar tanto técnicas de sujeción, como herramientas, puesto que por medio de nudos se pueden hacer bózales, cabezales, amarres, y son esenciales para hacer una conducción, sujeción e inmovilización segura tanto para el operario como para el animal.
+            p Las sogas son esenciales para el manejo de los animales, ya que son versátiles y por medio de ellas se pueden realizar tanto técnicas de sujeción, como herramientas, puesto que por medio de nudos se pueden hacer bozales, cabezales, amarres, y son esenciales para hacer una conducción, sujeción e inmovilización segura tanto para el operario como para el animal.
             
           .col-md-6
             figure
@@ -109,7 +109,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.px-5
             h5 Cepos para monta / apretaderos Toriles de monta
-            p Los cepos para monta, apretaderos son herramientas especiales para ayudar a la inmovilización de la hembra y una fácil monta del macho, asegurando así una monta adecuada y sin riesgo de caídas lesiones, movimientos bruscos.
+            p Los cepos para monta, apretaderos son herramientas especiales para ayudar a la inmovilización de la hembra y una fácil monta del macho, asegurando así una monta adecuada y sin riesgo de caídas, lesiones y/o movimientos bruscos.
 
           .col-md-6
             figure
@@ -170,7 +170,7 @@
           .col-md-8.mb-4.mb-md-0.px-4
             h5 Leptospirosis (zoonóticas)
             p La leptospirosis es una zoonosis bacteriana de importancia económica en la industria pecuaria, debido a que provoca abortos, mortinatos, infertilidad y disminución en la producción lechera, lo cual genera pérdidas económicas significativas a los productores. (Hernández y Gómez, 2011).
-            p La leptospira es una bacteria con características muy complicadas de identificación, ya que posee más de 7 variantes infecciosas, las cuales tienen un hospedador de mantenimiento, que serían los roedores, y unos hospederos accidentales, predominando la variante <em>hardjo</em>, las diferentes especies pecuarias y los humanos (zoonosis); teniendo en cuenta las consideraciones anteriores, es importante su control y vigilancia. ¨La leptospirosis es una enfermedad cuyas manifestaciones clínicas, muy variadas, van desde cuadros subclínicos, abortos, momificaciones y mortalidad al nacimiento, que afecta los ciclos de producción y productividad, hasta provocar complicaciones multiorgánicas que pueden conducir a la muerte. (Hernández y Gómez, 2011).
+            p La leptospira es una bacteria con características muy complicadas de identificación, ya que posee más de 7 variantes infecciosas, las cuales tienen un hospedador de mantenimiento, que serían los roedores, y unos hospederos accidentales, predominando la variante <em>hardjo</em>, las diferentes especies pecuarias y los humanos (zoonosis); teniendo en cuenta las consideraciones anteriores, es importante su control y vigilancia. La leptospirosis es una enfermedad cuyas manifestaciones clínicas, muy variadas, van desde cuadros subclínicos, abortos, momificaciones y mortalidad al nacimiento, que afecta los ciclos de producción y productividad, hasta provocar complicaciones multiorgánicas que pueden conducir a la muerte. (Hernández y Gómez, 2011).
             p En las especies pecuarias, la principal forma de ingreso del agente al organismo son las mucosas orales nasales y conjuntivales, así como heridas abiertas y/o no sanadas por completo. Con un periodo de incubación de 3 a 12 días, los signos iniciales de la enfermedad son los característicos de una infección bacteriana común, como fiebre, pérdida de apetito, dificultad respiratoria, pérdida de energía, dolor articular, entre otros. Posteriormente, la bacteria viaja a órganos diana u objetivos, donde verdaderamente provoca un daño mucho más severo, como son los órganos reproductores, pulmones, hígado, riñones, siendo este último órgano importante también para la diseminación de la enfermedad, ya que la leptospira tiene una gran capacidad de supervivencia en la orina y así puede contaminar de manera permanente el medio. De allí la importancia de los roedores en su ciclo de propagación, ya que estos se encuentran en los diferentes hemisferios terrestres.
             p La implementación de normas y protocolos de bioseguridad juegan un papel importante en el control de la enfermedad, especialmente los programas para el control de plagas y protocolos de limpieza y desinfección.
 

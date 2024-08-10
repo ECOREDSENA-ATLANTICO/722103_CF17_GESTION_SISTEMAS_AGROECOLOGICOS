@@ -175,7 +175,9 @@
 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
+      p.mb-0 Durante el ciclo estral se presentan las siguientes fases:
       .col-lg-8
+        
         .tabla-b.mb-5
           
         .titulo-sexto.color-acento-contenido
@@ -227,7 +229,7 @@
 
     p A continuación, se presentan, de manera gráfica, las fases del ciclo estral:
     figure.mb-5
-      img(src='@/assets/curso/temas/tema3/img-9.svg')
+      img(src='@/assets/curso/temas/tema3/img-9.png')
 
     p En las hembras animales, se encuentran diferentes tipos de presentación del celo:
 
@@ -282,7 +284,7 @@
       .col-lg-12
         figure
           img(src='@/assets/curso/temas/tema3/img-11.svg', alt='En la figura se observan las ventajas y desventajas de monta natural')
-
+        figcaption Nota. Fuente SENA
 
     .list.mb-3(data-aos="fade-down")
       .list__item
@@ -337,7 +339,7 @@
             p En los testículos se observan y se palpa el tamaño, forma y eje de rotación, seguidamente se inspecciona la cola del epidídimo y como se encuentra este frente a simetría testicular todo bajo cierta suavidad en la palpación para así lograr un examen adecuado sin causar ningún tipo de lesión al animal.
             p El tono testicular es también evaluado donde se evalúa la consistencia testicular y la elasticidad del mismo.
             p Donde la consistencia es la resistencia que este ejerce frente a la presión dada por la yema de los dedos y la elasticidad es la suficiencia que tienen los testículos para regresar a su lugar después de la fuerza ejercida.
-            p Para la medición se utilizan diferentes escalas o criterios de medición, los cuales pueden llegar a ser muy subjetivos escala galloway donde 1 fibrosis-nula elasticidad. 2, 3,4 tono normal- buena elasticidad. 5 flaccidez-esponjosidad.
+            p Para la medición se utilizan diferentes escalas o criterios de medición, los cuales pueden llegar a ser muy subjetivos escala <em>galloway</em> donde 1 fibrosis-nula elasticidad. 2, 3,4 tono normal- buena elasticidad. 5 flaccidez-esponjosidad.
         .row.justify-content-center.align-items-center(titulo="Glándulas accesorias ")
           .col-md-7.px-lg-5.mb-3
             figure
@@ -410,7 +412,7 @@
               td Fecha de confirmación de preñez.   
             tr
               td Fecha probable del parto 
-              td Dependiendo de la especie, número de días de gestación    
+              td Dependiendo de la especie, número de días de gestación.   
             tr
               td Fecha de secado
               td Dependiendo de la especie, número de días de secado.   
@@ -565,7 +567,7 @@
       .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-3")
           .row(titulo="Implantación")
-            p Es cuando el óvulo fertilizado se dirige al útero para hacer le proceso de implantación, donde posteriormente el embrión iniciara su proceso de crecimiento y desarrollo. En la yegua es entre 55-65 días, en la vaca de 33 a 35 y en la oveja es de 12 a 18 días. Posterior a este se da un proceso llamado placentación.
+            p Es cuando el óvulo fertilizado se dirige al útero para hacer le proceso de implantación, donde posteriormente el embrión iniciará su proceso de crecimiento y desarrollo. En la yegua es entre 55-65 días, en la vaca de 33 a 35 y en la oveja es de 12 a 18 días. Posterior a este se da un proceso llamado placentación.
           .row(titulo="Placentación")
             p Hay una formación de la placenta, la cual realiza diferentes funciones, brindando toda la ayuda necesaria para que el embrión logre sobrevivir, ayudando al intercambio de oxígeno y nutrientes, con funciones metabólicas para el almacenamiento, excretora, funciones de defensa y ayudando a las funciones endocrinas.
             p A estas fases se les conoce como periodo embrionario, después de esto se forman las membranas fetales y la vesícula amniótica dando la formación al feto. (INATEC, 2018).
@@ -574,9 +576,10 @@
             p Lo más característico es la formación de hueso y médula ósea, como también la diferenciación del aparato reproductor y la formación del surfactante pulmonar (Smok, 2014).
           .row(titulo="Periodo de parto")
             p Es el momento en el cual nace la cría, previo a este se observa la hembra con comportamientos anormales, se observa inquieta, intranquila, en algunos casos buscando lugares solitarios y algo escondidos, la hembra constantemente talonea el vientre, hasta que se echa y posteriormente comienzan las contracciones para la expulsión de la cría. Durante el periodo de parto hay unos acontecimientos importantes que le suceden a la hembra durante este momento:
-            p.mb-0 <b>Dilatación del cérvix:</b> Es el momento en el que el parto inicia, el cual por medio de las contracciones uterinas mueve a la cría a la parte cervical, la placenta avanza hacia al cuello uterino logrando una dilatación de este.
-            p.mb-0 <b>Expulsión:</b> Cuando la cría está a punto de ser expulsada o de dar a luz, el mayor esfuerzo del animal es lograr el paso de la cabeza por el canal de parto, el feto pasa por la pelvis y mediante acciones hormonales esta se separa generando un mayor espacio para que el feto pueda salir, mostrando inicialmente la cabeza posterior a esto las extremidades delanteras y por último la salida del torso y extremidades traseras. No se recomienda asistir el parto halando las extremidades, ya que este generaría un desgarre en la madre, o una posible lesión en la cría.
-            p.mb-0 <b>Expulsión de la placenta:</b> Se da por el rompimiento de la unión entre cotiledones y carúnculas causado por las contracciones uterinas, esta placenta debe ser expulsada con sus líquidos y restos placentarios, las especies animales tienen tendencia a comerse esos restos sin consecuencias patológicas.
+
+            p.mb-0 <b>Dilatación del cérvix:</b> es el momento en el que el parto inicia, el cual, por medio de las contracciones uterinas mueve a la cría a la parte cervical, la placenta avanza hacia el cuello uterino logrando una dilatación de este.
+            p.mb-0 <b>Expulsión:</b> cuando la cría está a punto de ser expulsada o de dar a luz, el mayor esfuerzo del animal es lograr el paso de la cabeza por el canal de parto, el feto pasa por la pelvis y mediante acciones hormonales esta se separa generando un mayor espacio para que el feto pueda salir, mostrando inicialmente la cabeza posterior a esto las extremidades delanteras y por último la salida del torso y extremidades traseras. No se recomienda asistir el parto halando las extremidades, ya que este generaría un desgarre en la madre, o una posible lesión en la cría.
+            p.mb-0 <b>Expulsión de la placenta:</b> se da por el rompimiento de la unión entre cotiledones y carúnculas causado por las contracciones uterinas, esta placenta debe ser expulsada con sus líquidos y restos placentarios. Las especies animales tienen tendencia a comerse esos restos sin consecuencias patológicas.
 
       .col-lg-4
         figure
@@ -608,9 +611,70 @@
               td 110 a 120 días  
       
 
+
     Separador
+    
     #3_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-      h2 3.7. Evaluación de parámetros reproductivos
+      h2 3.7 Aspectos generales del parto y la lactancia en las especies animales
+
+    p El parto se denomina el proceso por el cual las especies animales expulsan la placenta con la cría o crías, por medio de la intervención de las hormonas; está marcado por algunos signos como: 
+    figure.mb-5
+      img(src='@/assets/curso/temas/tema3/img-29.png')
+
+    p Se debe tener en cuenta que en la mayoría de las especies la posición del feto se ubica descansando sobre el abdomen con las patas anteriores dirigidas hacia la abertura uterina (cérvix), y la cabeza entre ambas; las otras posiciones se determinan como anormales. 
+    p Tradicionalmente, el parto se ha dividido en tres etapas y la transición entre ellas se lleva a cabo de forma gradual. Las tres etapas se presentan a continuación:
+
+    .row.justify-content-center.align-items-stretch.d-flex.mb-5(data-aos="fade-left")
+      .col-lg-6.col-xl-4.mb-3.mb-lg-0
+        .tarjeta.color-acento-contenido.fnd-6
+          .row.justify-content-center.mb-3
+              img(src='@/assets/curso/temas/tema3/img-30.png' alt='AvatarTop')
+          h6.text-center Fase de preparación
+          p.text-center Alteración de la hembra tanto a nivel externo (comportamiento), como interno (moco bulbar, relajación de ligamentos).
+      .col-lg-6.col-xl-4.mb-3.mb-lg-0
+        .tarjeta.color-acento-contenido.fnd-6
+          .row.justify-content-center.mb-3
+              img(src='@/assets/curso/temas/tema3/img-31.png' alt='AvatarTop')
+          h6.text-center Fase de dilatación
+          p.text-center.mx-3 Aumento del conducto genital (empieza entre cuatro y ocho horas antes del parto, depende de la especie). Contracciones uterinas con intervalo de tiempo y termina en el momento que la bolsa fetal se rompe y expulsa el feto.
+      .col-lg-6.col-xl-4
+        .tarjeta.color-acento-contenido.fnd-6
+          .row.justify-content-center.mb-3
+              img(src='@/assets/curso/temas/tema3/img-32.png' alt='AvatarTop')
+          h6.text-center Fase de expulsión
+          p.text-center.mx-3 Este proceso se refleja por acción de Ferguson que libera oxitocina y provoca las contracciones, el tiempo de expulsión, varía entre 2 a 3 horas en vacas, 5 a 30 minutos en yeguas y de 2 a 5 horas en porcinos; esta fase termina al expulsar el feto.
+
+    p La lactación es un proceso que abarca desde el parto hasta el destete, este depende mucho de la especie y el sistema de producción utilizado en este proceso, también intervienen diferentes hormonas como:
+    figure.mb-5
+      img(src='@/assets/curso/temas/tema3/img-33.svg')
+
+
+    p.mb-5 La lactación se caracteriza por irrigación de sangre a la glándula mamaria y la contracción de las células mioepiteliales bajo el estímulo de las hormonas mencionadas. La leche formada antes del nacimiento se llama calostro. En este proceso, hay una concentración de varias y esenciales sustancias, incluidos los <b>anticuerpos.</b> Además, debido al tipo de placentación bovina, la transferencia de inmunoglobulinas de la vaca al feto no es significativa. Por lo tanto, la forma en que la madre transfiere<b> las inmunoglobulinas al feto es a través del calostro.</b>
+
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .row.mb-5
+          .col-lg-12
+            .img-fnd-flot2.mb-3
+              img.b-img2(src='@/assets/curso/temas/tema3/img-34.svg' alt='Background Image')
+              .fl-box2
+                p.text-small.mb-0 Los recién nacidos deben consumir leche en menos de 24 horas para poder absorber estas inmunoglobulinas por el sistema digestivo. Las principales inmunoglobulinas del calostro son IgA, IgM e IgG. Si el tiempo es mayor, el epitelio intestinal impedirá el paso de estas importantes proteínas y el recién nacido quedará desprotegido.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.mb-3
+        p Cabe señalar que el calostro de la vaca también tiene compuestos como lisozimas, lactoferrina y lacto peroxidasa que tienen efectos antibióticos. El calostro destaca por su alta composición en grasas, vitaminas y proteínas. Por el contrario, su proporción de hidratos de carbono es baja.
+        p La vaca inicia la lactancia con la producción de calostro que durará unos días. Posteriormente, el calostro desaparecerá, dando lugar a la leche común. Es decir, con el paso de los días, la leche irá cambiando en su composición y aspecto. Alrededor de 3 a 4 semanas después de comenzar a amamantar, la vaca alcanza su punto máximo de producción de leche.
+        p El período de lactancia dura aproximadamente 305 días. Después de este período, la vaca entra en el llamado “período seco” donde la vaca no producirá leche. En el período seco, la ubre se deja descansar y recuperarse, preparándose para el próximo período de producción. Para lograr el período seco, no debe ordeñarse la vaca, lo que inhibe la producción.
+
+      .col-lg-5
+        figure.mb-5
+          img(src='@/assets/curso/temas/tema3/img-35.png')
+
+
+    Separador
+    #3_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+      h2 3.8. Evaluación de parámetros reproductivos
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-3
         p La evaluación de dichos parámetros es muy importante porque, de esta manera, se evalúa el sistema productivo y se identifican verdaderamente las falencias frente a animales o frente a procesos realizados en estos mismos animales, como se muestra a continuación.
@@ -673,63 +737,17 @@
 
 
 
-    Separador
-    #3_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-      h2 3.8 Aspectos generales del parto y la lactancia en las especies animales
-
-    p El parto se denomina el proceso por el cual las especies animales expulsan la placenta con la cría o crías, por medio de la intervención de las hormonas; está marcado por algunos signos como: 
-    figure.mb-5
-      img(src='@/assets/curso/temas/tema3/img-29.svg')
-
-    p Se debe tener en cuenta que en la mayoría de las especies la posición del feto se ubica descansando sobre el abdomen con las patas anteriores dirigidas hacia la abertura uterina (cérvix), y la cabeza entre ambas; las otras posiciones se determinan como anormales. 
-    p Tradicionalmente, el parto se ha dividido en tres etapas y la transición entre ellas se lleva a cabo de forma gradual. Las tres etapas se presentan a continuación:
-
-    .row.justify-content-center.align-items-stretch.d-flex.mb-5(data-aos="fade-left")
-      .col-lg-6.col-xl-4.mb-3.mb-lg-0
-        .tarjeta.color-acento-contenido.fnd-6
-          .row.justify-content-center.mb-3
-              img(src='@/assets/curso/temas/tema3/img-30.png' alt='AvatarTop')
-          h6.text-center Fase de preparación
-          p.text-center Alteración de la hembra tanto a nivel externo (comportamiento), como interno (moco bulbar, relajación de ligamentos).
-      .col-lg-6.col-xl-4.mb-3.mb-lg-0
-        .tarjeta.color-acento-contenido.fnd-6
-          .row.justify-content-center.mb-3
-              img(src='@/assets/curso/temas/tema3/img-31.png' alt='AvatarTop')
-          h6.text-center Fase de dilatación
-          p.text-center.mx-3 Aumento del conducto genital (empieza entre cuatro y ocho horas antes del parto, depende de la especie). Contracciones uterinas con intervalo de tiempo y termina en el momento que la bolsa fetal se rompe y expulsa el feto.
-      .col-lg-6.col-xl-4
-        .tarjeta.color-acento-contenido.fnd-6
-          .row.justify-content-center.mb-3
-              img(src='@/assets/curso/temas/tema3/img-32.png' alt='AvatarTop')
-          h6.text-center Fase de expulsión
-          p.text-center.mx-3 Este proceso se refleja por acción de Ferguson que libera oxitocina y provoca las contracciones, el tiempo de expulsión, varía entre 2 a 3 horas en vacas, 5 a 30 minutos en yeguas y de 2 a 5 horas en porcinos; esta fase termina al expulsar el feto.
-
-    p La lactación es un proceso que abarca desde el parto hasta el destete, este depende mucho de la especie y el sistema de producción utilizado en este proceso, también intervienen diferentes hormonas como:
-    figure.mb-5
-      img(src='@/assets/curso/temas/tema3/img-33.svg')
 
 
-    p.mb-5 La lactación se caracteriza por irrigación de sangre a la glándula mamaria y la contracción de las células mioepiteliales bajo el estímulo de las hormonas mencionadas. La leche formada antes del nacimiento se llama calostro. En este proceso, hay una concentración de varias y esenciales sustancias, incluidos los <b>anticuerpos.</b> Además, debido al tipo de placentación bovina, la transferencia de inmunoglobulinas de la vaca al feto no es significativa. Por lo tanto, la forma en que la madre transfiere<b> las inmunoglobulinas al feto es a través del calostro.</b>
 
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        .row.mb-5
-          .col-lg-12
-            .img-fnd-flot2.mb-3
-              img.b-img2(src='@/assets/curso/temas/tema3/img-34.svg' alt='Background Image')
-              .fl-box2
-                p.text-small.mb-0 Los recién nacidos deben consumir leche en menos de 24 horas para poder absorber estas inmunoglobulinas por el sistema digestivo. Las principales inmunoglobulinas del calostro son IgA, IgM e IgG. Si el tiempo es mayor, el epitelio intestinal impedirá el paso de estas importantes proteínas y el recién nacido quedará desprotegido.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.mb-3
-        p Cabe señalar que el calostro de la vaca también tiene compuestos como lisozimas, lactoferrina y lacto peroxidasa que tienen efectos antibióticos. El calostro destaca por su alta composición en grasas, vitaminas y proteínas. Por el contrario, su proporción de hidratos de carbono es baja.
-        p La vaca inicia la lactancia con la producción de calostro que durará unos días. Posteriormente, el calostro desaparecerá, dando lugar a la leche común. Es decir, con el paso de los días, la leche irá cambiando en su composición y aspecto. Alrededor de 3 a 4 semanas después de comenzar a amamantar, la vaca alcanza su punto máximo de producción de leche.
-        p El período de lactancia dura aproximadamente 305 días. Después de este período, la vaca entra en el llamado “período seco” donde la vaca no producirá leche. En el período seco, la ubre se deja descansar y recuperarse, preparándose para el próximo período de producción. Para lograr el período seco, no debe ordeñarse la vaca, lo que inhibe la producción.
 
-      .col-lg-5
-        figure.mb-5
-          img(src='@/assets/curso/temas/tema3/img-35.png')
+
+
+
+
+
 
 </template>
 

@@ -158,8 +158,9 @@
       span Órganos genitales hembras
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        figure
+        figure.mb-2
           img(src='@/assets/curso/temas/tema1/img-12.svg', alt='Órganos genitales hembras. En la figura se representa los internos: ovarios, oviducto, cuernos útero, cérvix, vagina, grupo genital externo: vulva con los labios vulvares, clítoris.')
+        figcaption.mx-5 Nota. Fuente SENA
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-8.mb-3
@@ -197,7 +198,7 @@
         .row.justify-content-end.align-items-end
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-14.png', alt='Aparato reproductor de la vaca - Vulval - Vestibulo - Vagina - Pelvis - Vejiga - Cérvix - Ovario - Cuellos uterinos - Oviducto - Cuerpo del útero - Recto')
+              img(src='@/assets/curso/temas/tema1/img-14-.png', alt='Aparato reproductor de la vaca - Vulval - Vestibulo - Vagina - Pelvis - Vejiga - Cérvix - Ovario - Cuellos uterinos - Oviducto - Cuerpo del útero - Recto')
         .row.justify-content-end.align-items-end
           .col-md-11.mb-4.mb-md-0
             figure
@@ -226,7 +227,7 @@
               .tarjeta.color-acento-botones.fnd-2
                 .p-4
                   h5.mb-0 Yegua
-                  p En la imagen observamos ambos ovarios con diferentes fases Foliculares.
+                  p En la imagen observamos ambos ovarios con diferentes fases foliculares.
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/tema1/img-19.png' alt='AvatarTop')
@@ -254,7 +255,7 @@
 
           .col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema1/img-21.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-21-.svg')
       .tarjeta.p-4.fnd-1(titulo="Cuerpo lúteo:")
         .row.justify-content-center.align-items-center
           .col-lg-11
@@ -267,14 +268,14 @@
             p Estructura resultante después de que el folículo maduro genera la ovulación; este deja como resultado un espacio que es conocido como fosa de ovulación, que posteriormente se llenará de componente sanguíneo y tejido, que mediante las palpaciones o ecografías puede ser detectable.
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-22.png')
       .tarjeta.p-4.fnd-1(titulo="Cuerpo albicans:")
         .row.justify-content-center.align-items-center
           .col-lg-4
             p El cuerpo albicans es el resultado de la autolisis de un cuerpo amarillo que no llegó a hacer la luteolisis completa, genera una pequeña cicatriz blanquecina, dándole nombre a esta estructura.
           .col-lg-8
             figure
-              img(src='@/assets/curso/temas/tema1/img-23.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-23.png')
         
 
     .row.justify-content-center
@@ -298,11 +299,13 @@
           .row(titulo="Cérvix")
             p El cérvix es una estructura que genera protección del útero, en algunas especies como el ganado bovino este secreta un mucus con propiedades antibacterianas preparándose para la gestación (estro), cuando la vaca está servida y o gestante este cérvix produce un moco mucho más denso generando un tapón que sella y protege el útero, en caso de generar ruptura de este tapón puede provocar un aborto. En el cérvix encontramos unas estructuras muy características de cada especie que son los anillos cervicales, estos cumplen una función de barrera física para evitar el ingreso de patógenos y elementos extraños.
             p Cada especie animal tiene un número determinado de anillos cervicales.
+            .col-lg-8
+              .titulo-sexto.color-acento-contenido
+                h5 Tabla 1
+                span Características del cérvix
             .color-acento-contenido.mb-5
-              .tabla-b__header.ttt
-                h4.mb-0 Características del cérvix
               table
-                tr
+                tr.fnd-b-
                   th Especie animal
                   td Bovino
                   td Porcino                  
@@ -372,7 +375,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-27.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-27.png')
 
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
@@ -385,10 +388,11 @@
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-30.png', alt='	Aparato reproductor masculino la uretra -	Vesícula seminal -	Ampula -	Conducto deferente -	Testículo -	Epidídimo -	Glándula -	bulbo-uretral -	Próstata -	Pene -	Musculo retractor -	"S del pene')
+              img(src='@/assets/curso/temas/tema1/img-30-.png', alt='	Aparato reproductor masculino la uretra -	Vesícula seminal -	Ampula -	Conducto deferente -	Testículo -	Epidídimo -	Glándula -	bulbo-uretral -	Próstata -	Pene -	Musculo retractor -	"S del pene')
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure
+              img(src='@/assets/curso/temas/tema1/img-31.png', alt='	Aparato reproductor masculino 	Próstata. 	Glándula vesicular. 	Ampolla del conducto deferente. 	Vejiga. 	Conducto deferente (vas deferens).  Glande del pene. 	Ріеко pampini forme. 	Prepucio. 	Apéndice filiforme. 	Cabeza del epidídimo. 	Cola del epidídimo. 	Recto. 	Glándula Bulbo-uretral. 	Músculo retractor del pene. 	Flexura sigmoide. 	Pene. 	Testículo. 	Cuerpo del epidídimo. 	Escroto.')
 
     .row.justify-content-star.align-items-center.mb-3
       .col-lg-1.ttl-1
@@ -424,7 +428,7 @@
             
           .col-md-8
             figure
-              img(src='@/assets/curso/temas/tema1/img-33.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-33.png')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0.px-5
             h5 Pene equino
@@ -432,7 +436,7 @@
             
           .col-md-8
             figure
-              img(src='@/assets/curso/temas/tema1/img-34.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-34.png')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0.px-5
             h5  Pene de los caprinos
@@ -440,7 +444,7 @@
             
           .col-md-8
             figure
-              img(src='@/assets/curso/temas/tema1/img-36.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-36.png')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0.px-5
             h5 Pene porcino
@@ -448,7 +452,7 @@
             
           .col-md-8
             figure
-              img(src='@/assets/curso/temas/tema1/img-35.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-35.png')
       
     p Otras estructuras reproductivas del macho, son:
     .row.justify-content-center.align-items-center(data-aos="zoom-in")
@@ -463,7 +467,7 @@
             p Los testículos son los órganos encargados de la producción de gametos sexuales masculinos y la producción de la hormona masculina testosterona, dicho órgano dependiendo la especie tiene su posición en los rumiantes, evidenciamos que son colgantes y pendulantes mientras que en los equinos se encuentran no tan colgantes siendo un poco más horizontales, mientras tanto en los cerdos están más cerca de perineo y un poco más recogidos.
             p Los testículos poseen estructuras especializadas para la producción y transporte de esperma dentro de las cuales se encuentran los túbulos seminíferos, los cuales son encargados de la producción espermática, después pasan a la rete testis la cual recoge los espermatozoides enviándolos a la cabeza del epidídimo donde allí realizan el proceso de maduración y posterior almacenamiento, en caso de eyaculación el esperma viajaría por el conducto deferente.
           .row(titulo="Escroto")
-            p El escroto es la estructura encarga de la protección y termorregulación testicular equipado de epitelio, pelos, glándulas sudoríparas, sebáceas y diferentes capas de musculatura, donde vemos músculos de gran importancia para la termorregulación como el músculo crémaster y el dartos.
+            p El escroto es la estructura encargada de la protección y termorregulación testicular equipado de epitelio, pelos, glándulas sudoríparas, sebáceas y diferentes capas de musculatura, donde vemos músculos de gran importancia para la termorregulación como el músculo crémaster y el dartos.
           .row(titulo="Glándulas accesorias")
             p Las glándulas accesorias son de gran importancia para la reproducción masculina, ya que son productoras de uno de los componentes más importantes para el transporte espermático como lo es el plasma seminal pues sin este plasma seminal se vería afectado la nutrición, supervivencia y el transporte de los espermatozoides, como funciones complementarias ayuda a la limpieza del canal uretral.
                                             
@@ -481,6 +485,7 @@
       .col-lg-12
         figure
           img(src='@/assets/curso/temas/tema1/img-38.png', alt='Cambios comportamentales y físicos del celo En la figura se observan los cambios comportamentales y físicos del celo.')
+        figcaption Nota. Fuente SENA
 
     p Aunque estos signos hablan claramente de la presencia del celo, también es importante tener en cuenta la edad del animal y su especie. En las hembras, se encuentran diferentes tipos de presentación del celo, según su periodicidad:
 
@@ -613,7 +618,7 @@
               img(src='@/assets/curso/temas/tema1/img-45.png')
 
           .col-md-8.mb-4.mb-md-0
-            p Los animales marcadores son y serán usados, ya que nada mejor que el macho para saber cuándo montar a la hembra, además de esto, realizar un proceso de estímulo hacia la hembra hará que entre mucho más rápido a la madurez cuando hay un macho cerca. Teniendo en cuanta estos animales marcadores o probadores existen varias formas de utilizarlos, ya sea utilizando dispositivos electrónicos de detección de monta o marcadores.
+            p Los animales marcadores son y serán usados, ya que nada mejor que el macho para saber cuándo montar a la hembra, además de esto, realizar un proceso de estímulo hacia la hembra hará que entre mucho más rápido a la madurez cuando hay un macho cerca. Teniendo en cuenta estos animales marcadores o probadores existen varias formas de utilizarlos, ya sea utilizando dispositivos electrónicos de detección de monta o marcadores.
             p En algunos casos el animal marcador es el mismo reproductor, de la producción y en otros casos se utilizan animales con baja carga espermática o modificados quirúrgicamente (desviados), para no realizar la preñez, marcando así las vacas en celo, que posteriormente serán llevadas al toro reproductor para realizar la monta. En cerdos es muy común el uso de machos receladores para ver comportamiento de la hembra frente al macho y signos físicos característicos.
       .py-4.py-md-5(titulo="Dispositivos electrónicos")
         .row.justify-content-center.align-items-center.mb-5
@@ -631,7 +636,7 @@
               img(src='@/assets/curso/temas/tema1/img-47.svg')
 
           .col-md-8.mb-4.mb-md-0
-            p Existen diferentes tipos de dispositivos para la detección de la monta que generalmente trabajan bajo el sistema de marcar el animal montado debido a la aceptación de la monta, ya sea con cápsulas que cambian de color, aplicación de pintura en la base de la cola o el sacro, y los sistemas electrónicos los cuales se inserta como un microchip en la base de la cola, los toros probadores o toros desviados tendrán un lector del microchip en un cinturón, al momento de realizar la monta este enviara un aviso del número del microchip al computador o celular del encargado de la producción para así identificar a la hembra montada.
+            p Existen diferentes tipos de dispositivos para la detección de la monta que generalmente trabajan bajo el sistema de marcar el animal montado debido a la aceptación de la monta, ya sea con cápsulas que cambian de color, aplicación de pintura en la base de la cola o el sacro, y los sistemas electrónicos los cuales se inserta como un microchip en la base de la cola, los toros probadores o toros desviados tendrán un lector del microchip en un cinturón, al momento de realizar la monta este enviará un aviso del número del microchip al computador o celular del encargado de la producción para así identificar a la hembra montada.
 
               
 
