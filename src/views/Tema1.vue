@@ -313,7 +313,7 @@
                   td Ovino
 
                 tr.fnd-b
-                  th Características del cérviz
+                  th Características del cérvix
                   td De 3 a 4 años muy prominentes
                   td En forma de tirabuzón
                   td Pliegues longitudinales
@@ -324,7 +324,7 @@
 
           .row(titulo="Vagina")
             p Órgano en el cual se realiza la cópula de forma tubular y con gran dilatación, encargada de la recepción del pene del macho y canal de parto, el piso de la vagina es llamado vestíbulo en el cual encontramos estructuras como orificio uretral, glándulas anexas y en la cerda una diferencia que es el divertículo uretral.
-            p En la monta natural el semen se deposita en muy cerca a la apertura del cérvix.
+            p En la monta natural el semen se deposita muy cerca a la apertura del cérvix.
           .row(titulo="Vulva")
             p Dentro de los órganos genitales la vulva es el más externo, siendo la parte más visible y generalmente confundido con la vagina, la vulva cuenta con unos labios vulvares mayores, unos menores y como homologo femenino del pene encontramos al clítoris en la zona ventral.                                                        
 
@@ -388,7 +388,7 @@
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-30-.png', alt='	Aparato reproductor masculino la uretra -	Vesícula seminal -	Ampula -	Conducto deferente -	Testículo -	Epidídimo -	Glándula -	bulbo-uretral -	Próstata -	Pene -	Musculo retractor -	"S del pene')
+              img(src='@/assets/curso/temas/tema1/img-30.png', alt='	Aparato reproductor masculino la uretra -	Vesícula seminal -	Ampula -	Conducto deferente -	Testículo -	Epidídimo -	Glándula -	bulbo-uretral -	Próstata -	Pene -	Musculo retractor -	"S del pene')
         .row.justify-content-center.align-items-center
           .col-md-11.mb-4.mb-md-0
             figure

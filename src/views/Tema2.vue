@@ -130,7 +130,7 @@
       h2 2.2 Principales enfermedades reproductivas por especie animal
 
     p Los animales, siendo seres vivos biológicamente activos, están bajo constante riesgo de ser asaltados por diferentes microorganismos que pueden ser causantes de enfermedades, en ocasiones, fatales para el animal.
-    p Los causantes de las enfermedades infecciosas pueden ser de tipo bacteriano, virales, parasitarias y hongos, en dichas enfermedades, es de vital importancia identificar, controlar, supervisar, prever y, en caso dado, curar, siempre teniendo como fundamento la bioseguridad y el concepto de que es mejor “prevenir que curar”. 
+    p Los causantes de las enfermedades infecciosas pueden ser de tipo bacteriano, virales, parasitarias y hongos; en dichas enfermedades, es de vital importancia identificar, controlar, supervisar, prever y, en caso dado, curar, siempre teniendo como fundamento la bioseguridad y el concepto de que es mejor “prevenir que curar”. 
     p Dentro de las diferentes especies pecuarias, se encuentra gran variedad de enfermedades, causando aumento en los costos productivos y grandes pérdidas económicas para la producción pecuaria.
 
     ImagenInfografica.color-secundario.pst.mb-5
