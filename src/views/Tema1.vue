@@ -304,7 +304,8 @@
                 h5 Tabla 1
                 span Características del cérvix
             .color-acento-contenido.mb-5
-              table
+              
+              table.mb-2
                 tr.fnd-b-
                   th Especie animal
                   td Bovino
@@ -318,7 +319,7 @@
                   td En forma de tirabuzón
                   td Pliegues longitudinales
                   td De 5 a 7 anillos muy prominentes
-
+              figcaption Nota. Sena 2022
 
          
 

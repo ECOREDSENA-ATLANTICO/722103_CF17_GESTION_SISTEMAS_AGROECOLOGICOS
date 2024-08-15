@@ -490,7 +490,7 @@ export default {
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -501,29 +501,29 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Desarrollo Curricular',
+          cargo: 'Responsable de desarrollo curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
           nombre: 'Diana Julieth Núñez Ortegón',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicio - Regional Tolima',
         },
         {
           nombre: 'Paola Alexandra Moya Peralta',
-          cargo: 'Diseñadora Instruccional',
+          cargo: 'Diseñadora instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesora Metodológica',
+          cargo: 'Asesora metodológica',
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrector de Estilo',
+          cargo: 'Corrector de estilo',
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
       ],
@@ -533,31 +533,31 @@ export default {
       autores: [
         {
           nombre: 'Nelson Vera',
-          cargo: 'Producción Audiovisual',
+          cargo: 'Producción audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Alexander acosta',
-          cargo: 'Producción Audiovisual',
+          cargo: 'Producción audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Carmen Martínez',
-          cargo: 'Producción Audiovisual',
+          cargo: 'Producción audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Jorge Leonardo Camacho',
-          cargo: 'Desarrollo <em>Full Stack</em>',
+          cargo: 'Desarrollo <em>full stack</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Carmen Martínez',
-          cargo: 'Diseño de Contenidos Digitales',
+          cargo: 'Diseño de contenidos digitales',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
@@ -568,31 +568,31 @@ export default {
       autores: [
         {
           nombre: 'Fabian Cuartas',
-          cargo: 'Validación de Diseño y Contenido',
+          cargo: 'Validación de diseño y contenido',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Gilberto Herrera',
-          cargo: 'Validación de Diseño y Contenido',
+          cargo: 'Validación de diseño y contenido',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
           nombre: 'Jairo Valencia Ebrat',
-          cargo: 'Validación de Recursos Digitales ',
+          cargo: 'Validación de recursos digitales ',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
